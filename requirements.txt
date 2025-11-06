@@ -11,3 +11,6 @@ fairlearn
 torchmetrics
 pillow
 ipykernel
+opencv_python
+Pillow
+gdown

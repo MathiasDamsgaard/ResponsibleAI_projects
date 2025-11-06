@@ -1,16 +1,20 @@
-# dev
+.DS_Store
+.vscode
+
 /dev/
 /pretrained_model/
 # /datafiles/
 NIH_part/
 
-# __pycache__
+__pycache__
 **/__pycache__
 
 # 
 **.sh
 **.html
-/exercise_dev.ipynb
-/exercise_pub.ipynb
-/exercise_oldver.ipynb
 
+#datasets
+#saved_models
+#pretrained_models
+#docs
+#analysis
