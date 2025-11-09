@@ -15,6 +15,7 @@ CELEB_A_HQ_URL = 'https://drive.google.com/uc?id=1badu11NqxGf6qM3PTTooQDJvQbejgb
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 DATASETS_FOLDER = f'{PROJECT_ROOT}/datasets'
+ARCHIEVE_FOLDER = f'{PROJECT_ROOT}/CUB_200_2011.tgz'
 
 
 def download_dataset(url: str, filename: str):
@@ -37,9 +38,10 @@ def unpack_dataset(filepath: str):
 
 def generate_cub200():
     """Generate cub200 dataset."""
-    print('Downloading dataset...')
-    dataset_archive_path = download_dataset(CUB200_URL, 'cub200.tgz')
-    dataset_path = os.path.dirname(dataset_archive_path)
+    # print('Downloading dataset...')
+    # dataset_archive_path = download_dataset(CUB200_URL, 'cub200.tgz')
+    dataset_archive_path = ARCHIEVE_FOLDER
+    dataset_path = os.path.join(os.path.dirname(dataset_archive_path), 'datasets/CUB_200_2011')
     print('Unpacking folder...')
     original_path = unpack_dataset(dataset_archive_path)
     print('Generating parts locations...')

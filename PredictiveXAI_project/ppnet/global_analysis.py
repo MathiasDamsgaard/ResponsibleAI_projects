@@ -54,7 +54,7 @@ def run_analysis(args: Namespace):
     log(f'Model base architecture: {model_base_architecture}')
     log(f'Experiment run: {experiment_run}\n')
 
-    ppnet = torch.load(args.model)
+    ppnet = torch.load(args.model, weights_only=False)
     ppnet = ppnet.cuda()
     ppnet_multi = torch.nn.DataParallel(ppnet)
 

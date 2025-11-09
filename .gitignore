@@ -1,20 +1,6 @@
-.DS_Store
+.venv/
 .vscode
-
-/dev/
-/pretrained_model/
-# /datafiles/
-NIH_part/
-
 __pycache__
-**/__pycache__
 
-# 
-**.sh
 **.html
-
-#datasets
-#saved_models
-#pretrained_models
-#docs
-#analysis
+*.tgz

@@ -84,7 +84,7 @@ def run_analysis(args: Namespace):
     log(f'Experiment run: {experiment_run}')
     log(f'Output path: {os.path.abspath(save_analysis_path)}\n')
 
-    ppnet = torch.load(args.model)
+    ppnet = torch.load(args.model, weights_only=False)
     ppnet = ppnet.cuda()
     ppnet.eval()
     ppnet_multi = torch.nn.DataParallel(ppnet)

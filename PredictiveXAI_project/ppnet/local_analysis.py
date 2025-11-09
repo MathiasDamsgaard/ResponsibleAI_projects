@@ -123,7 +123,7 @@ def _run_analysis_on_image(args: Namespace):
     log(f'Experiment run: {experiment_run}')
     log(f'Output path: {os.path.abspath(save_analysis_path)}\n')
 
-    ppnet = torch.load(args.model)
+    ppnet = torch.load(args.model, weights_only=False)
     ppnet = ppnet.cuda()
     ppnet_multi = torch.nn.DataParallel(ppnet)
 
