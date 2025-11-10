@@ -1,8 +1,8 @@
 datasets
 saved_models
+!saved_models/**/*.log
 pretrained_models
 docs
-#analysis
-*.log
+analysis
 *.npy
 logs/

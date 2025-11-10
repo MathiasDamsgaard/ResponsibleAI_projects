@@ -1,5 +1,5 @@
 #!/bin/bash
-#BSUB -J protopnet_500proto
+#BSUB -J protopnet_200proto
 #BSUB -q gpuv100
 #BSUB -gpu "num=1:mode=exclusive_process"
 #BSUB -W 24:00
@@ -15,14 +15,14 @@
 
 # Required parameters
 DATASET="./datasets/CUB_200_2011"  # Path to dataset directory (contains train/ and test/)
-EXP_NAME="protopnet_500proto"     # Experiment name
+EXP_NAME="protopnet_200proto"     # Experiment name
 
 # Training parameters
-EPOCHS=250                          # Number of training epochs
+EPOCHS=200                          # Number of training epochs
 WARM_EPOCHS=50                      # Number of warm-up epochs
 TEST_INTERVAL=50                    # Test every N epochs
 PUSH_INTERVAL=50                    # Push prototypes every N epochs
-NUM_PROTOTYPES=500                  # Number of prototypes to learn
+NUM_PROTOTYPES=200                  # Number of prototypes to learn
 
 # Model architecture parameters
 ARCHITECTURE="resnet34"             # Backbone architecture
