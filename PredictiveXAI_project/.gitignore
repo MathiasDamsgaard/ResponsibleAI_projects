@@ -1,8 +1,9 @@
 datasets
-saved_models
-!saved_models/**/*.log
+saved_models/resnet34/**/checkpoints
+saved_models/resnet34/**/img
 pretrained_models
 docs
 analysis
 *.npy
+*.yaml
 logs/
