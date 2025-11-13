@@ -7,7 +7,9 @@ requires-python = ">=3.13"
 dependencies = [
     "fairlearn>=0.13.0",
     "gdown>=5.2.0",
+    "huggingface-hub>=1.1.4",
     "ipykernel>=7.1.0",
+    "llama-cpp-python>=0.3.16",
     "matplotlib>=3.10.7",
     "numpy>=2.3.4",
     "opencv-python>=4.11.0.86",
