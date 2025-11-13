@@ -1,0 +1,4421 @@
+training set size: 5994
+push set size: 5994
+test set size: 5794
+batch size: 32
+
+Start training
+epoch: 	0
+	warm
+train
+	time: 	23.68
+	cross ent: 	5.31842
+	cluster: 	6.50565
+	separation:	5.34829
+	diversity:	0.00000
+	avg separation:	11.77771
+	accu: 		0.33367%
+	l1: 		201000.00
+	avg proto dist:	4.76955
+test
+	time: 	10.82
+	cross ent: 	5.29511
+	cluster: 	3.11826
+	separation:	2.48465
+	diversity:	0.00000
+	avg separation:	11.36557
+	accu: 		0.77667%
+	l1: 		201000.00
+	avg proto dist:	4.76955
+	above 70.00%
+------------------------------------------
+
+epoch: 	1
+	warm
+train
+	time: 	11.99
+	cross ent: 	5.30878
+	cluster: 	1.78001
+	separation:	1.28056
+	diversity:	0.00000
+	avg separation:	11.40131
+	accu: 		0.65065%
+	l1: 		201000.00
+	avg proto dist:	4.78016
+------------------------------------------
+
+epoch: 	2
+	warm
+train
+	time: 	12.00
+	cross ent: 	5.29400
+	cluster: 	0.57271
+	separation:	0.24841
+	diversity:	0.00000
+	avg separation:	11.63546
+	accu: 		1.15115%
+	l1: 		201000.00
+	avg proto dist:	4.82629
+------------------------------------------
+
+epoch: 	3
+	warm
+train
+	time: 	11.90
+	cross ent: 	5.24820
+	cluster: 	0.33590
+	separation:	0.10937
+	diversity:	0.00101
+	avg separation:	11.95908
+	accu: 		1.71839%
+	l1: 		201000.00
+	avg proto dist:	4.88139
+------------------------------------------
+
+epoch: 	4
+	warm
+train
+	time: 	11.97
+	cross ent: 	5.19493
+	cluster: 	0.28197
+	separation:	0.08398
+	diversity:	0.00236
+	avg separation:	12.23922
+	accu: 		1.70170%
+	l1: 		201000.00
+	avg proto dist:	4.93759
+------------------------------------------
+
+epoch: 	5
+	warm
+train
+	time: 	12.03
+	cross ent: 	5.05976
+	cluster: 	0.26001
+	separation:	0.07258
+	diversity:	0.00678
+	avg separation:	12.47974
+	accu: 		2.03537%
+	l1: 		201000.00
+	avg proto dist:	4.97741
+------------------------------------------
+
+epoch: 	6
+	warm
+train
+	time: 	11.97
+	cross ent: 	4.95099
+	cluster: 	0.25555
+	separation:	0.06968
+	diversity:	0.00907
+	avg separation:	12.68307
+	accu: 		2.40240%
+	l1: 		201000.00
+	avg proto dist:	5.00806
+------------------------------------------
+
+epoch: 	7
+	warm
+train
+	time: 	11.87
+	cross ent: 	4.84617
+	cluster: 	0.25587
+	separation:	0.06847
+	diversity:	0.01151
+	avg separation:	12.84699
+	accu: 		2.63597%
+	l1: 		201000.00
+	avg proto dist:	5.03139
+------------------------------------------
+
+epoch: 	8
+	warm
+train
+	time: 	11.85
+	cross ent: 	4.74485
+	cluster: 	0.22831
+	separation:	0.06219
+	diversity:	0.00928
+	avg separation:	12.88656
+	accu: 		3.08642%
+	l1: 		201000.00
+	avg proto dist:	5.04788
+------------------------------------------
+
+epoch: 	9
+	warm
+train
+	time: 	11.94
+	cross ent: 	4.61771
+	cluster: 	0.23757
+	separation:	0.06259
+	diversity:	0.01058
+	avg separation:	12.97274
+	accu: 		3.45345%
+	l1: 		201000.00
+	avg proto dist:	5.03838
+------------------------------------------
+
+epoch: 	10
+	warm
+train
+	time: 	12.04
+	cross ent: 	4.53451
+	cluster: 	0.23444
+	separation:	0.05829
+	diversity:	0.00860
+	avg separation:	12.95550
+	accu: 		4.03737%
+	l1: 		201000.00
+	avg proto dist:	5.03556
+------------------------------------------
+
+epoch: 	11
+	warm
+train
+	time: 	11.94
+	cross ent: 	4.46554
+	cluster: 	0.22040
+	separation:	0.05787
+	diversity:	0.00633
+	avg separation:	12.86980
+	accu: 		4.93827%
+	l1: 		201000.00
+	avg proto dist:	5.02415
+------------------------------------------
+
+epoch: 	12
+	warm
+train
+	time: 	11.99
+	cross ent: 	4.37524
+	cluster: 	0.22782
+	separation:	0.05945
+	diversity:	0.00652
+	avg separation:	12.87207
+	accu: 		4.73807%
+	l1: 		201000.00
+	avg proto dist:	5.00695
+------------------------------------------
+
+epoch: 	13
+	warm
+train
+	time: 	11.95
+	cross ent: 	4.34228
+	cluster: 	0.22874
+	separation:	0.05938
+	diversity:	0.00665
+	avg separation:	12.74772
+	accu: 		5.05506%
+	l1: 		201000.00
+	avg proto dist:	5.00035
+------------------------------------------
+
+epoch: 	14
+	warm
+train
+	time: 	11.95
+	cross ent: 	4.22683
+	cluster: 	0.21513
+	separation:	0.05664
+	diversity:	0.00636
+	avg separation:	12.68347
+	accu: 		5.93927%
+	l1: 		201000.00
+	avg proto dist:	4.99341
+------------------------------------------
+
+epoch: 	15
+	warm
+train
+	time: 	11.88
+	cross ent: 	4.17965
+	cluster: 	0.22255
+	separation:	0.06104
+	diversity:	0.00438
+	avg separation:	12.67298
+	accu: 		6.27294%
+	l1: 		201000.00
+	avg proto dist:	4.97052
+------------------------------------------
+
+epoch: 	16
+	warm
+train
+	time: 	12.09
+	cross ent: 	4.14062
+	cluster: 	0.22168
+	separation:	0.05954
+	diversity:	0.00506
+	avg separation:	12.47368
+	accu: 		6.90691%
+	l1: 		201000.00
+	avg proto dist:	4.94806
+------------------------------------------
+
+epoch: 	17
+	warm
+train
+	time: 	11.93
+	cross ent: 	4.05445
+	cluster: 	0.23031
+	separation:	0.06292
+	diversity:	0.00338
+	avg separation:	12.54569
+	accu: 		7.40741%
+	l1: 		201000.00
+	avg proto dist:	4.92766
+------------------------------------------
+
+epoch: 	18
+	warm
+train
+	time: 	12.01
+	cross ent: 	4.00457
+	cluster: 	0.21994
+	separation:	0.06113
+	diversity:	0.00297
+	avg separation:	12.36370
+	accu: 		8.19152%
+	l1: 		201000.00
+	avg proto dist:	4.91876
+------------------------------------------
+
+epoch: 	19
+	warm
+train
+	time: 	11.92
+	cross ent: 	3.95271
+	cluster: 	0.21818
+	separation:	0.06342
+	diversity:	0.00180
+	avg separation:	12.25965
+	accu: 		8.39173%
+	l1: 		201000.00
+	avg proto dist:	4.89004
+------------------------------------------
+
+epoch: 	20
+	warm
+train
+	time: 	11.76
+	cross ent: 	3.91567
+	cluster: 	0.22543
+	separation:	0.06291
+	diversity:	0.00237
+	avg separation:	12.17191
+	accu: 		8.99233%
+	l1: 		201000.00
+	avg proto dist:	4.87730
+------------------------------------------
+
+epoch: 	21
+	warm
+train
+	time: 	11.77
+	cross ent: 	3.88786
+	cluster: 	0.24627
+	separation:	0.06881
+	diversity:	0.00249
+	avg separation:	12.07039
+	accu: 		9.77644%
+	l1: 		201000.00
+	avg proto dist:	4.85691
+------------------------------------------
+
+epoch: 	22
+	warm
+train
+	time: 	12.07
+	cross ent: 	3.84963
+	cluster: 	0.23722
+	separation:	0.06846
+	diversity:	0.00047
+	avg separation:	11.98446
+	accu: 		9.45946%
+	l1: 		201000.00
+	avg proto dist:	4.84636
+------------------------------------------
+
+epoch: 	23
+	warm
+train
+	time: 	12.01
+	cross ent: 	3.76139
+	cluster: 	0.23364
+	separation:	0.07163
+	diversity:	0.00064
+	avg separation:	11.84574
+	accu: 		10.56056%
+	l1: 		201000.00
+	avg proto dist:	4.82666
+------------------------------------------
+
+epoch: 	24
+	warm
+train
+	time: 	11.95
+	cross ent: 	3.67658
+	cluster: 	0.24580
+	separation:	0.07135
+	diversity:	0.00110
+	avg separation:	11.81966
+	accu: 		12.01201%
+	l1: 		201000.00
+	avg proto dist:	4.80970
+------------------------------------------
+
+epoch: 	25
+	warm
+train
+	time: 	11.90
+	cross ent: 	3.65206
+	cluster: 	0.25178
+	separation:	0.07784
+	diversity:	0.00111
+	avg separation:	11.76796
+	accu: 		12.66266%
+	l1: 		201000.00
+	avg proto dist:	4.79192
+------------------------------------------
+
+epoch: 	26
+	warm
+train
+	time: 	11.74
+	cross ent: 	3.63918
+	cluster: 	0.24412
+	separation:	0.07394
+	diversity:	0.00115
+	avg separation:	11.62812
+	accu: 		13.02970%
+	l1: 		201000.00
+	avg proto dist:	4.77661
+------------------------------------------
+
+epoch: 	27
+	warm
+train
+	time: 	11.89
+	cross ent: 	3.56135
+	cluster: 	0.25493
+	separation:	0.08018
+	diversity:	0.00046
+	avg separation:	11.43588
+	accu: 		14.46446%
+	l1: 		201000.00
+	avg proto dist:	4.76742
+------------------------------------------
+
+epoch: 	28
+	warm
+train
+	time: 	11.91
+	cross ent: 	3.51580
+	cluster: 	0.25324
+	separation:	0.07862
+	diversity:	0.00052
+	avg separation:	11.41503
+	accu: 		15.58225%
+	l1: 		201000.00
+	avg proto dist:	4.75424
+------------------------------------------
+
+epoch: 	29
+	warm
+train
+	time: 	12.06
+	cross ent: 	3.46762
+	cluster: 	0.25238
+	separation:	0.07845
+	diversity:	0.00022
+	avg separation:	11.35470
+	accu: 		15.76577%
+	l1: 		201000.00
+	avg proto dist:	4.74259
+------------------------------------------
+
+epoch: 	30
+	warm
+train
+	time: 	11.92
+	cross ent: 	3.43091
+	cluster: 	0.27208
+	separation:	0.08798
+	diversity:	0.00061
+	avg separation:	11.28527
+	accu: 		15.61562%
+	l1: 		201000.00
+	avg proto dist:	4.72501
+------------------------------------------
+
+epoch: 	31
+	warm
+train
+	time: 	11.99
+	cross ent: 	3.38806
+	cluster: 	0.26679
+	separation:	0.08503
+	diversity:	0.00030
+	avg separation:	11.17602
+	accu: 		16.59993%
+	l1: 		201000.00
+	avg proto dist:	4.70998
+------------------------------------------
+
+epoch: 	32
+	warm
+train
+	time: 	12.13
+	cross ent: 	3.33307
+	cluster: 	0.26705
+	separation:	0.08688
+	diversity:	0.00046
+	avg separation:	11.11796
+	accu: 		18.11812%
+	l1: 		201000.00
+	avg proto dist:	4.69697
+------------------------------------------
+
+epoch: 	33
+	warm
+train
+	time: 	12.06
+	cross ent: 	3.30842
+	cluster: 	0.27064
+	separation:	0.08802
+	diversity:	0.00016
+	avg separation:	11.11074
+	accu: 		18.35169%
+	l1: 		201000.00
+	avg proto dist:	4.68505
+------------------------------------------
+
+epoch: 	34
+	warm
+train
+	time: 	11.92
+	cross ent: 	3.25249
+	cluster: 	0.28110
+	separation:	0.09100
+	diversity:	0.00019
+	avg separation:	11.07543
+	accu: 		19.63630%
+	l1: 		201000.00
+	avg proto dist:	4.67602
+------------------------------------------
+
+epoch: 	35
+	warm
+train
+	time: 	11.98
+	cross ent: 	3.20371
+	cluster: 	0.27901
+	separation:	0.09249
+	diversity:	0.00019
+	avg separation:	11.09378
+	accu: 		19.98665%
+	l1: 		201000.00
+	avg proto dist:	4.65647
+------------------------------------------
+
+epoch: 	36
+	warm
+train
+	time: 	11.86
+	cross ent: 	3.16135
+	cluster: 	0.27359
+	separation:	0.08984
+	diversity:	0.00022
+	avg separation:	10.86903
+	accu: 		21.32132%
+	l1: 		201000.00
+	avg proto dist:	4.63984
+------------------------------------------
+
+epoch: 	37
+	warm
+train
+	time: 	11.92
+	cross ent: 	3.17972
+	cluster: 	0.28530
+	separation:	0.09517
+	diversity:	0.00063
+	avg separation:	10.67794
+	accu: 		20.40374%
+	l1: 		201000.00
+	avg proto dist:	4.63262
+------------------------------------------
+
+epoch: 	38
+	warm
+train
+	time: 	11.79
+	cross ent: 	3.15119
+	cluster: 	0.28443
+	separation:	0.09404
+	diversity:	0.00015
+	avg separation:	10.72681
+	accu: 		21.25459%
+	l1: 		201000.00
+	avg proto dist:	4.61984
+------------------------------------------
+
+epoch: 	39
+	warm
+train
+	time: 	11.78
+	cross ent: 	3.08186
+	cluster: 	0.29892
+	separation:	0.10138
+	diversity:	0.00021
+	avg separation:	10.62757
+	accu: 		22.67267%
+	l1: 		201000.00
+	avg proto dist:	4.60180
+------------------------------------------
+
+epoch: 	40
+	warm
+train
+	time: 	11.88
+	cross ent: 	3.05322
+	cluster: 	0.29300
+	separation:	0.09825
+	diversity:	0.00020
+	avg separation:	10.60578
+	accu: 		22.52252%
+	l1: 		201000.00
+	avg proto dist:	4.58511
+------------------------------------------
+
+epoch: 	41
+	warm
+train
+	time: 	11.90
+	cross ent: 	3.03483
+	cluster: 	0.29940
+	separation:	0.10432
+	diversity:	0.00019
+	avg separation:	10.48393
+	accu: 		23.64031%
+	l1: 		201000.00
+	avg proto dist:	4.57094
+------------------------------------------
+
+epoch: 	42
+	warm
+train
+	time: 	12.10
+	cross ent: 	3.03615
+	cluster: 	0.29467
+	separation:	0.10391
+	diversity:	0.00032
+	avg separation:	10.33046
+	accu: 		23.45679%
+	l1: 		201000.00
+	avg proto dist:	4.56788
+------------------------------------------
+
+epoch: 	43
+	warm
+train
+	time: 	11.93
+	cross ent: 	3.02485
+	cluster: 	0.29568
+	separation:	0.10247
+	diversity:	0.00031
+	avg separation:	10.32769
+	accu: 		24.40774%
+	l1: 		201000.00
+	avg proto dist:	4.55138
+------------------------------------------
+
+epoch: 	44
+	warm
+train
+	time: 	11.77
+	cross ent: 	2.95243
+	cluster: 	0.29903
+	separation:	0.10521
+	diversity:	0.00031
+	avg separation:	10.34121
+	accu: 		25.47548%
+	l1: 		201000.00
+	avg proto dist:	4.53546
+------------------------------------------
+
+epoch: 	45
+	warm
+train
+	time: 	11.95
+	cross ent: 	2.97516
+	cluster: 	0.30113
+	separation:	0.10457
+	diversity:	0.00035
+	avg separation:	10.25118
+	accu: 		25.29196%
+	l1: 		201000.00
+	avg proto dist:	4.52532
+------------------------------------------
+
+epoch: 	46
+	warm
+train
+	time: 	11.92
+	cross ent: 	2.91945
+	cluster: 	0.29476
+	separation:	0.10500
+	diversity:	0.00011
+	avg separation:	10.10227
+	accu: 		25.64231%
+	l1: 		201000.00
+	avg proto dist:	4.50459
+------------------------------------------
+
+epoch: 	47
+	warm
+train
+	time: 	12.06
+	cross ent: 	2.91432
+	cluster: 	0.30398
+	separation:	0.10846
+	diversity:	0.00026
+	avg separation:	9.99352
+	accu: 		26.12613%
+	l1: 		201000.00
+	avg proto dist:	4.49448
+------------------------------------------
+
+epoch: 	48
+	warm
+train
+	time: 	11.85
+	cross ent: 	2.87970
+	cluster: 	0.30489
+	separation:	0.10944
+	diversity:	0.00056
+	avg separation:	9.93962
+	accu: 		26.64331%
+	l1: 		201000.00
+	avg proto dist:	4.48090
+------------------------------------------
+
+epoch: 	49
+	warm
+train
+	time: 	12.19
+	cross ent: 	2.94138
+	cluster: 	0.31380
+	separation:	0.11009
+	diversity:	0.00018
+	avg separation:	9.91863
+	accu: 		25.12513%
+	l1: 		201000.00
+	avg proto dist:	4.46988
+------------------------------------------
+
+epoch: 	50
+	joint
+train
+	time: 	13.05
+	cross ent: 	3.12706
+	cluster: 	0.37006
+	separation:	0.13434
+	diversity:	0.00003
+	avg separation:	10.24176
+	accu: 		22.42242%
+	l1: 		201000.00
+	avg proto dist:	4.60930
+test
+	time: 	8.53
+	cross ent: 	2.95630
+	cluster: 	0.31316
+	separation:	0.11217
+	diversity:	0.00000
+	avg separation:	10.05177
+	accu: 		26.88989%
+	l1: 		201000.00
+	avg proto dist:	4.60930
+	above 70.00%
+	push
+	Executing push ...
+	push time: 	247.40200686454773
+test
+	time: 	8.39
+	cross ent: 	12.80715
+	cluster: 	0.09553
+	separation:	0.00284
+	diversity:	74.10538
+	avg separation:	4.55759
+	accu: 		7.42147%
+	l1: 		201000.00
+	avg proto dist:	3.31022
+	last layer
+iteration: 	0
+train
+	time: 	11.93
+	cross ent: 	8.78679
+	cluster: 	0.09643
+	separation:	0.00363
+	diversity:	74.10538
+	avg separation:	4.77299
+	accu: 		13.81381%
+	l1: 		200227.44
+	avg proto dist:	3.31022
+test
+	time: 	8.36
+	cross ent: 	7.40595
+	cluster: 	0.09215
+	separation:	0.00303
+	diversity:	74.10538
+	avg separation:	4.58628
+	accu: 		16.67242%
+	l1: 		200227.44
+	avg proto dist:	3.31022
+iteration: 	1
+train
+	time: 	11.93
+	cross ent: 	6.59863
+	cluster: 	0.09605
+	separation:	0.00364
+	diversity:	74.10538
+	avg separation:	4.77044
+	accu: 		19.13580%
+	l1: 		199919.59
+	avg proto dist:	3.31022
+test
+	time: 	8.42
+	cross ent: 	6.55063
+	cluster: 	0.09396
+	separation:	0.00275
+	diversity:	74.10538
+	avg separation:	4.58877
+	accu: 		19.69279%
+	l1: 		199919.59
+	avg proto dist:	3.31022
+iteration: 	2
+train
+	time: 	11.81
+	cross ent: 	6.19295
+	cluster: 	0.09504
+	separation:	0.00365
+	diversity:	74.10538
+	avg separation:	4.77364
+	accu: 		20.07007%
+	l1: 		199694.69
+	avg proto dist:	3.31022
+test
+	time: 	8.44
+	cross ent: 	6.21627
+	cluster: 	0.09403
+	separation:	0.00323
+	diversity:	74.10538
+	avg separation:	4.58179
+	accu: 		21.52226%
+	l1: 		199694.69
+	avg proto dist:	3.31022
+iteration: 	3
+train
+	time: 	11.92
+	cross ent: 	5.84643
+	cluster: 	0.09498
+	separation:	0.00361
+	diversity:	74.10538
+	avg separation:	4.76765
+	accu: 		22.02202%
+	l1: 		199507.88
+	avg proto dist:	3.31022
+test
+	time: 	8.36
+	cross ent: 	6.10800
+	cluster: 	0.09207
+	separation:	0.00265
+	diversity:	74.10538
+	avg separation:	4.62425
+	accu: 		21.78115%
+	l1: 		199507.88
+	avg proto dist:	3.31022
+iteration: 	4
+train
+	time: 	11.86
+	cross ent: 	5.76907
+	cluster: 	0.09753
+	separation:	0.00361
+	diversity:	74.10538
+	avg separation:	4.77112
+	accu: 		22.83951%
+	l1: 		199323.83
+	avg proto dist:	3.31022
+test
+	time: 	8.34
+	cross ent: 	5.92461
+	cluster: 	0.09436
+	separation:	0.00308
+	diversity:	74.10538
+	avg separation:	4.58162
+	accu: 		22.02278%
+	l1: 		199323.83
+	avg proto dist:	3.31022
+iteration: 	5
+train
+	time: 	11.80
+	cross ent: 	5.57028
+	cluster: 	0.09579
+	separation:	0.00360
+	diversity:	74.10538
+	avg separation:	4.77646
+	accu: 		22.47247%
+	l1: 		199141.03
+	avg proto dist:	3.31022
+test
+	time: 	8.36
+	cross ent: 	5.78113
+	cluster: 	0.09271
+	separation:	0.00290
+	diversity:	74.10538
+	avg separation:	4.62571
+	accu: 		23.16189%
+	l1: 		199141.03
+	avg proto dist:	3.31022
+iteration: 	6
+train
+	time: 	11.81
+	cross ent: 	5.44888
+	cluster: 	0.09812
+	separation:	0.00362
+	diversity:	74.10538
+	avg separation:	4.78050
+	accu: 		24.09076%
+	l1: 		198959.44
+	avg proto dist:	3.31022
+test
+	time: 	8.39
+	cross ent: 	5.64699
+	cluster: 	0.09385
+	separation:	0.00323
+	diversity:	74.10538
+	avg separation:	4.58190
+	accu: 		23.43804%
+	l1: 		198959.44
+	avg proto dist:	3.31022
+iteration: 	7
+train
+	time: 	11.89
+	cross ent: 	5.36705
+	cluster: 	0.09373
+	separation:	0.00360
+	diversity:	74.10538
+	avg separation:	4.76071
+	accu: 		23.72372%
+	l1: 		198772.53
+	avg proto dist:	3.31022
+test
+	time: 	8.40
+	cross ent: 	5.54142
+	cluster: 	0.09497
+	separation:	0.00297
+	diversity:	74.10538
+	avg separation:	4.56447
+	accu: 		23.57611%
+	l1: 		198772.53
+	avg proto dist:	3.31022
+iteration: 	8
+train
+	time: 	11.92
+	cross ent: 	5.21698
+	cluster: 	0.09373
+	separation:	0.00346
+	diversity:	74.10538
+	avg separation:	4.77053
+	accu: 		24.37437%
+	l1: 		198584.52
+	avg proto dist:	3.31022
+test
+	time: 	8.44
+	cross ent: 	5.46246
+	cluster: 	0.09466
+	separation:	0.00319
+	diversity:	74.10538
+	avg separation:	4.57064
+	accu: 		24.38730%
+	l1: 		198584.52
+	avg proto dist:	3.31022
+iteration: 	9
+train
+	time: 	12.03
+	cross ent: 	5.20725
+	cluster: 	0.09720
+	separation:	0.00369
+	diversity:	74.10538
+	avg separation:	4.76272
+	accu: 		24.57457%
+	l1: 		198393.67
+	avg proto dist:	3.31022
+test
+	time: 	8.91
+	cross ent: 	5.43882
+	cluster: 	0.09477
+	separation:	0.00287
+	diversity:	74.10538
+	avg separation:	4.55521
+	accu: 		24.30100%
+	l1: 		198393.67
+	avg proto dist:	3.31022
+iteration: 	10
+train
+	time: 	13.16
+	cross ent: 	5.07757
+	cluster: 	0.09620
+	separation:	0.00370
+	diversity:	74.10538
+	avg separation:	4.76969
+	accu: 		25.14181%
+	l1: 		198203.77
+	avg proto dist:	3.31022
+test
+	time: 	9.28
+	cross ent: 	5.39768
+	cluster: 	0.09236
+	separation:	0.00249
+	diversity:	74.10538
+	avg separation:	4.61239
+	accu: 		23.80048%
+	l1: 		198203.77
+	avg proto dist:	3.31022
+iteration: 	11
+train
+	time: 	13.14
+	cross ent: 	5.01784
+	cluster: 	0.09541
+	separation:	0.00361
+	diversity:	74.10538
+	avg separation:	4.76477
+	accu: 		25.72573%
+	l1: 		198010.62
+	avg proto dist:	3.31022
+test
+	time: 	9.28
+	cross ent: 	5.32675
+	cluster: 	0.09406
+	separation:	0.00262
+	diversity:	74.10538
+	avg separation:	4.56684
+	accu: 		24.59441%
+	l1: 		198010.62
+	avg proto dist:	3.31022
+iteration: 	12
+train
+	time: 	13.41
+	cross ent: 	4.92994
+	cluster: 	0.09502
+	separation:	0.00361
+	diversity:	74.10538
+	avg separation:	4.76386
+	accu: 		25.22523%
+	l1: 		197820.05
+	avg proto dist:	3.31022
+test
+	time: 	9.28
+	cross ent: 	5.18824
+	cluster: 	0.09381
+	separation:	0.00249
+	diversity:	74.10538
+	avg separation:	4.57394
+	accu: 		24.78426%
+	l1: 		197820.05
+	avg proto dist:	3.31022
+iteration: 	13
+train
+	time: 	13.44
+	cross ent: 	4.86768
+	cluster: 	0.09614
+	separation:	0.00373
+	diversity:	74.10538
+	avg separation:	4.77369
+	accu: 		26.30964%
+	l1: 		197626.38
+	avg proto dist:	3.31022
+test
+	time: 	9.27
+	cross ent: 	5.16059
+	cluster: 	0.09448
+	separation:	0.00278
+	diversity:	74.10538
+	avg separation:	4.54592
+	accu: 		25.25026%
+	l1: 		197626.38
+	avg proto dist:	3.31022
+iteration: 	14
+train
+	time: 	13.20
+	cross ent: 	4.83507
+	cluster: 	0.09647
+	separation:	0.00354
+	diversity:	74.10538
+	avg separation:	4.76898
+	accu: 		26.76009%
+	l1: 		197433.47
+	avg proto dist:	3.31022
+test
+	time: 	9.18
+	cross ent: 	5.04424
+	cluster: 	0.09392
+	separation:	0.00294
+	diversity:	74.10538
+	avg separation:	4.58211
+	accu: 		25.25026%
+	l1: 		197433.47
+	avg proto dist:	3.31022
+iteration: 	15
+train
+	time: 	13.07
+	cross ent: 	4.75588
+	cluster: 	0.09424
+	separation:	0.00351
+	diversity:	74.10538
+	avg separation:	4.77514
+	accu: 		26.64331%
+	l1: 		197238.70
+	avg proto dist:	3.31022
+test
+	time: 	9.11
+	cross ent: 	5.01697
+	cluster: 	0.09451
+	separation:	0.00299
+	diversity:	74.10538
+	avg separation:	4.59927
+	accu: 		25.94063%
+	l1: 		197238.70
+	avg proto dist:	3.31022
+iteration: 	16
+train
+	time: 	13.34
+	cross ent: 	4.73479
+	cluster: 	0.09523
+	separation:	0.00355
+	diversity:	74.10538
+	avg separation:	4.77717
+	accu: 		26.60994%
+	l1: 		197038.75
+	avg proto dist:	3.31022
+test
+	time: 	9.13
+	cross ent: 	4.94743
+	cluster: 	0.09318
+	separation:	0.00301
+	diversity:	74.10538
+	avg separation:	4.59907
+	accu: 		26.09596%
+	l1: 		197038.75
+	avg proto dist:	3.31022
+iteration: 	17
+train
+	time: 	13.01
+	cross ent: 	4.62352
+	cluster: 	0.09679
+	separation:	0.00365
+	diversity:	74.10538
+	avg separation:	4.77406
+	accu: 		27.76109%
+	l1: 		196845.44
+	avg proto dist:	3.31022
+test
+	time: 	9.04
+	cross ent: 	4.88935
+	cluster: 	0.09478
+	separation:	0.00287
+	diversity:	74.10538
+	avg separation:	4.56406
+	accu: 		25.30204%
+	l1: 		196845.44
+	avg proto dist:	3.31022
+iteration: 	18
+train
+	time: 	13.04
+	cross ent: 	4.61781
+	cluster: 	0.09540
+	separation:	0.00364
+	diversity:	74.10538
+	avg separation:	4.77808
+	accu: 		27.39406%
+	l1: 		196650.39
+	avg proto dist:	3.31022
+test
+	time: 	9.15
+	cross ent: 	4.82052
+	cluster: 	0.09219
+	separation:	0.00271
+	diversity:	74.10538
+	avg separation:	4.61384
+	accu: 		26.14774%
+	l1: 		196650.39
+	avg proto dist:	3.31022
+iteration: 	19
+train
+	time: 	13.10
+	cross ent: 	4.55996
+	cluster: 	0.09507
+	separation:	0.00369
+	diversity:	74.10538
+	avg separation:	4.76706
+	accu: 		27.09376%
+	l1: 		196458.75
+	avg proto dist:	3.31022
+test
+	time: 	9.12
+	cross ent: 	4.88888
+	cluster: 	0.09413
+	separation:	0.00261
+	diversity:	74.10538
+	avg separation:	4.58956
+	accu: 		25.90611%
+	l1: 		196458.75
+	avg proto dist:	3.31022
+------------------------------------------
+
+epoch: 	51
+	joint
+train
+	time: 	13.31
+	cross ent: 	3.50084
+	cluster: 	0.41073
+	separation:	0.07546
+	diversity:	1.60965
+	avg separation:	6.28582
+	accu: 		21.15449%
+	l1: 		196458.75
+	avg proto dist:	3.59622
+------------------------------------------
+
+epoch: 	52
+	joint
+train
+	time: 	13.24
+	cross ent: 	2.85961
+	cluster: 	0.33148
+	separation:	0.06976
+	diversity:	0.00173
+	avg separation:	6.40214
+	accu: 		29.01235%
+	l1: 		196458.75
+	avg proto dist:	3.67053
+------------------------------------------
+
+epoch: 	53
+	joint
+train
+	time: 	13.03
+	cross ent: 	2.58685
+	cluster: 	0.30951
+	separation:	0.07259
+	diversity:	0.00150
+	avg separation:	6.71544
+	accu: 		34.80147%
+	l1: 		196458.75
+	avg proto dist:	3.70756
+------------------------------------------
+
+epoch: 	54
+	joint
+train
+	time: 	12.65
+	cross ent: 	2.46524
+	cluster: 	0.29777
+	separation:	0.07448
+	diversity:	0.00193
+	avg separation:	6.70656
+	accu: 		36.61995%
+	l1: 		196458.75
+	avg proto dist:	3.74286
+------------------------------------------
+
+epoch: 	55
+	joint
+train
+	time: 	13.16
+	cross ent: 	2.26297
+	cluster: 	0.28437
+	separation:	0.07139
+	diversity:	0.00106
+	avg separation:	6.84680
+	accu: 		40.05672%
+	l1: 		196458.75
+	avg proto dist:	3.76566
+------------------------------------------
+
+epoch: 	56
+	joint
+train
+	time: 	13.39
+	cross ent: 	2.07771
+	cluster: 	0.27109
+	separation:	0.07870
+	diversity:	0.00083
+	avg separation:	6.92174
+	accu: 		44.96163%
+	l1: 		196458.75
+	avg proto dist:	3.77757
+------------------------------------------
+
+epoch: 	57
+	joint
+train
+	time: 	13.24
+	cross ent: 	1.96808
+	cluster: 	0.27131
+	separation:	0.08598
+	diversity:	0.00112
+	avg separation:	6.98316
+	accu: 		47.64765%
+	l1: 		196458.75
+	avg proto dist:	3.79784
+------------------------------------------
+
+epoch: 	58
+	joint
+train
+	time: 	13.20
+	cross ent: 	1.86772
+	cluster: 	0.26943
+	separation:	0.09330
+	diversity:	0.00097
+	avg separation:	6.98297
+	accu: 		50.08342%
+	l1: 		196458.75
+	avg proto dist:	3.82317
+------------------------------------------
+
+epoch: 	59
+	joint
+train
+	time: 	13.04
+	cross ent: 	1.79113
+	cluster: 	0.25983
+	separation:	0.09132
+	diversity:	0.00066
+	avg separation:	7.06001
+	accu: 		51.15115%
+	l1: 		196458.75
+	avg proto dist:	3.83411
+------------------------------------------
+
+epoch: 	60
+	joint
+train
+	time: 	13.31
+	cross ent: 	1.75366
+	cluster: 	0.26285
+	separation:	0.09275
+	diversity:	0.00082
+	avg separation:	7.15152
+	accu: 		51.88522%
+	l1: 		196458.75
+	avg proto dist:	3.85179
+------------------------------------------
+
+epoch: 	61
+	joint
+train
+	time: 	13.42
+	cross ent: 	1.71313
+	cluster: 	0.26242
+	separation:	0.09332
+	diversity:	0.00076
+	avg separation:	7.20879
+	accu: 		52.98632%
+	l1: 		196458.75
+	avg proto dist:	3.86140
+------------------------------------------
+
+epoch: 	62
+	joint
+train
+	time: 	13.34
+	cross ent: 	1.61035
+	cluster: 	0.25593
+	separation:	0.09508
+	diversity:	0.00039
+	avg separation:	7.33478
+	accu: 		55.92259%
+	l1: 		196458.75
+	avg proto dist:	3.87365
+------------------------------------------
+
+epoch: 	63
+	joint
+train
+	time: 	13.32
+	cross ent: 	1.54814
+	cluster: 	0.24923
+	separation:	0.09202
+	diversity:	0.00142
+	avg separation:	7.31038
+	accu: 		56.95696%
+	l1: 		196458.75
+	avg proto dist:	3.88354
+------------------------------------------
+
+epoch: 	64
+	joint
+train
+	time: 	13.32
+	cross ent: 	1.47262
+	cluster: 	0.24919
+	separation:	0.09582
+	diversity:	0.00107
+	avg separation:	7.33314
+	accu: 		59.60961%
+	l1: 		196458.75
+	avg proto dist:	3.89132
+------------------------------------------
+
+epoch: 	65
+	joint
+train
+	time: 	13.35
+	cross ent: 	1.45281
+	cluster: 	0.24743
+	separation:	0.09658
+	diversity:	0.00123
+	avg separation:	7.39246
+	accu: 		59.42609%
+	l1: 		196458.75
+	avg proto dist:	3.90094
+------------------------------------------
+
+epoch: 	66
+	joint
+train
+	time: 	13.37
+	cross ent: 	1.39119
+	cluster: 	0.24424
+	separation:	0.10328
+	diversity:	0.00050
+	avg separation:	7.57605
+	accu: 		61.17784%
+	l1: 		196458.75
+	avg proto dist:	3.91026
+------------------------------------------
+
+epoch: 	67
+	joint
+train
+	time: 	13.44
+	cross ent: 	1.34547
+	cluster: 	0.24017
+	separation:	0.10598
+	diversity:	0.00050
+	avg separation:	7.60725
+	accu: 		62.37905%
+	l1: 		196458.75
+	avg proto dist:	3.91684
+------------------------------------------
+
+epoch: 	68
+	joint
+train
+	time: 	13.26
+	cross ent: 	1.29093
+	cluster: 	0.24112
+	separation:	0.10620
+	diversity:	0.00068
+	avg separation:	7.63150
+	accu: 		63.53020%
+	l1: 		196458.75
+	avg proto dist:	3.92816
+------------------------------------------
+
+epoch: 	69
+	joint
+train
+	time: 	13.07
+	cross ent: 	1.26062
+	cluster: 	0.23449
+	separation:	0.09596
+	diversity:	0.00073
+	avg separation:	7.62341
+	accu: 		64.88155%
+	l1: 		196458.75
+	avg proto dist:	3.93172
+------------------------------------------
+
+epoch: 	70
+	joint
+train
+	time: 	13.34
+	cross ent: 	1.20583
+	cluster: 	0.23396
+	separation:	0.11058
+	diversity:	0.00051
+	avg separation:	7.69947
+	accu: 		66.08275%
+	l1: 		196458.75
+	avg proto dist:	3.94686
+------------------------------------------
+
+epoch: 	71
+	joint
+train
+	time: 	13.15
+	cross ent: 	1.12227
+	cluster: 	0.22174
+	separation:	0.10630
+	diversity:	0.00039
+	avg separation:	7.68492
+	accu: 		68.43510%
+	l1: 		196458.75
+	avg proto dist:	3.94913
+------------------------------------------
+
+epoch: 	72
+	joint
+train
+	time: 	12.85
+	cross ent: 	1.12401
+	cluster: 	0.22897
+	separation:	0.11130
+	diversity:	0.00068
+	avg separation:	7.70549
+	accu: 		68.28495%
+	l1: 		196458.75
+	avg proto dist:	3.94663
+------------------------------------------
+
+epoch: 	73
+	joint
+train
+	time: 	13.11
+	cross ent: 	1.10001
+	cluster: 	0.22609
+	separation:	0.10805
+	diversity:	0.00046
+	avg separation:	7.81523
+	accu: 		69.38605%
+	l1: 		196458.75
+	avg proto dist:	3.95660
+------------------------------------------
+
+epoch: 	74
+	joint
+train
+	time: 	12.83
+	cross ent: 	1.08443
+	cluster: 	0.22649
+	separation:	0.11303
+	diversity:	0.00046
+	avg separation:	7.80087
+	accu: 		69.31932%
+	l1: 		196458.75
+	avg proto dist:	3.96548
+------------------------------------------
+
+epoch: 	75
+	joint
+train
+	time: 	12.71
+	cross ent: 	1.03422
+	cluster: 	0.22259
+	separation:	0.11327
+	diversity:	0.00078
+	avg separation:	7.77892
+	accu: 		71.15449%
+	l1: 		196458.75
+	avg proto dist:	3.97720
+------------------------------------------
+
+epoch: 	76
+	joint
+train
+	time: 	12.87
+	cross ent: 	1.07015
+	cluster: 	0.22440
+	separation:	0.10927
+	diversity:	0.00052
+	avg separation:	7.89118
+	accu: 		70.20354%
+	l1: 		196458.75
+	avg proto dist:	3.98249
+------------------------------------------
+
+epoch: 	77
+	joint
+train
+	time: 	12.93
+	cross ent: 	0.97835
+	cluster: 	0.22047
+	separation:	0.11513
+	diversity:	0.00066
+	avg separation:	7.97874
+	accu: 		71.88856%
+	l1: 		196458.75
+	avg proto dist:	3.99120
+------------------------------------------
+
+epoch: 	78
+	joint
+train
+	time: 	12.93
+	cross ent: 	0.94920
+	cluster: 	0.21484
+	separation:	0.11523
+	diversity:	0.00091
+	avg separation:	8.05981
+	accu: 		73.20654%
+	l1: 		196458.75
+	avg proto dist:	4.00112
+------------------------------------------
+
+epoch: 	79
+	joint
+train
+	time: 	12.88
+	cross ent: 	0.95153
+	cluster: 	0.21737
+	separation:	0.12102
+	diversity:	0.00050
+	avg separation:	8.09723
+	accu: 		72.72272%
+	l1: 		196458.75
+	avg proto dist:	4.00965
+------------------------------------------
+
+epoch: 	80
+	joint
+train
+	time: 	13.02
+	cross ent: 	0.92133
+	cluster: 	0.21687
+	separation:	0.11826
+	diversity:	0.00072
+	avg separation:	8.16267
+	accu: 		73.25659%
+	l1: 		196458.75
+	avg proto dist:	4.01477
+------------------------------------------
+
+epoch: 	81
+	joint
+train
+	time: 	12.96
+	cross ent: 	0.86574
+	cluster: 	0.20959
+	separation:	0.11866
+	diversity:	0.00074
+	avg separation:	8.19925
+	accu: 		75.65899%
+	l1: 		196458.75
+	avg proto dist:	4.01576
+------------------------------------------
+
+epoch: 	82
+	joint
+train
+	time: 	13.08
+	cross ent: 	0.84940
+	cluster: 	0.21338
+	separation:	0.12423
+	diversity:	0.00092
+	avg separation:	8.22894
+	accu: 		75.54221%
+	l1: 		196458.75
+	avg proto dist:	4.03066
+------------------------------------------
+
+epoch: 	83
+	joint
+train
+	time: 	13.03
+	cross ent: 	0.84171
+	cluster: 	0.20898
+	separation:	0.12007
+	diversity:	0.00058
+	avg separation:	8.37525
+	accu: 		76.67668%
+	l1: 		196458.75
+	avg proto dist:	4.03809
+------------------------------------------
+
+epoch: 	84
+	joint
+train
+	time: 	13.12
+	cross ent: 	0.83547
+	cluster: 	0.21367
+	separation:	0.12452
+	diversity:	0.00098
+	avg separation:	8.51851
+	accu: 		76.67668%
+	l1: 		196458.75
+	avg proto dist:	4.05331
+------------------------------------------
+
+epoch: 	85
+	joint
+train
+	time: 	13.01
+	cross ent: 	0.81557
+	cluster: 	0.20638
+	separation:	0.12087
+	diversity:	0.00051
+	avg separation:	8.53730
+	accu: 		76.76009%
+	l1: 		196458.75
+	avg proto dist:	4.05340
+------------------------------------------
+
+epoch: 	86
+	joint
+train
+	time: 	12.97
+	cross ent: 	0.76625
+	cluster: 	0.19794
+	separation:	0.11704
+	diversity:	0.00112
+	avg separation:	8.49097
+	accu: 		78.11144%
+	l1: 		196458.75
+	avg proto dist:	4.06645
+------------------------------------------
+
+epoch: 	87
+	joint
+train
+	time: 	12.82
+	cross ent: 	0.77909
+	cluster: 	0.20865
+	separation:	0.12574
+	diversity:	0.00039
+	avg separation:	8.71202
+	accu: 		78.32833%
+	l1: 		196458.75
+	avg proto dist:	4.06680
+------------------------------------------
+
+epoch: 	88
+	joint
+train
+	time: 	12.53
+	cross ent: 	0.74347
+	cluster: 	0.20009
+	separation:	0.12571
+	diversity:	0.00122
+	avg separation:	8.66327
+	accu: 		78.67868%
+	l1: 		196458.75
+	avg proto dist:	4.07596
+------------------------------------------
+
+epoch: 	89
+	joint
+train
+	time: 	12.05
+	cross ent: 	0.75200
+	cluster: 	0.20509
+	separation:	0.12722
+	diversity:	0.00051
+	avg separation:	8.72328
+	accu: 		78.91225%
+	l1: 		196458.75
+	avg proto dist:	4.08117
+------------------------------------------
+
+epoch: 	90
+	joint
+train
+	time: 	11.92
+	cross ent: 	0.70542
+	cluster: 	0.19293
+	separation:	0.12459
+	diversity:	0.00052
+	avg separation:	8.76324
+	accu: 		80.09676%
+	l1: 		196458.75
+	avg proto dist:	4.08809
+------------------------------------------
+
+epoch: 	91
+	joint
+train
+	time: 	11.92
+	cross ent: 	0.69854
+	cluster: 	0.19880
+	separation:	0.12789
+	diversity:	0.00054
+	avg separation:	8.88077
+	accu: 		79.61295%
+	l1: 		196458.75
+	avg proto dist:	4.10942
+------------------------------------------
+
+epoch: 	92
+	joint
+train
+	time: 	12.82
+	cross ent: 	0.68369
+	cluster: 	0.19541
+	separation:	0.12519
+	diversity:	0.00092
+	avg separation:	8.97148
+	accu: 		80.36370%
+	l1: 		196458.75
+	avg proto dist:	4.11297
+------------------------------------------
+
+epoch: 	93
+	joint
+train
+	time: 	12.99
+	cross ent: 	0.66675
+	cluster: 	0.19532
+	separation:	0.12737
+	diversity:	0.00047
+	avg separation:	9.12468
+	accu: 		81.18118%
+	l1: 		196458.75
+	avg proto dist:	4.11858
+------------------------------------------
+
+epoch: 	94
+	joint
+train
+	time: 	13.36
+	cross ent: 	0.65484
+	cluster: 	0.18960
+	separation:	0.12474
+	diversity:	0.00073
+	avg separation:	9.18690
+	accu: 		81.23123%
+	l1: 		196458.75
+	avg proto dist:	4.13469
+------------------------------------------
+
+epoch: 	95
+	joint
+train
+	time: 	13.22
+	cross ent: 	0.68571
+	cluster: 	0.19468
+	separation:	0.12450
+	diversity:	0.00058
+	avg separation:	9.09621
+	accu: 		80.68068%
+	l1: 		196458.75
+	avg proto dist:	4.14605
+------------------------------------------
+
+epoch: 	96
+	joint
+train
+	time: 	13.37
+	cross ent: 	0.64473
+	cluster: 	0.18999
+	separation:	0.12999
+	diversity:	0.00038
+	avg separation:	9.27910
+	accu: 		81.61495%
+	l1: 		196458.75
+	avg proto dist:	4.15649
+------------------------------------------
+
+epoch: 	97
+	joint
+train
+	time: 	13.30
+	cross ent: 	0.58700
+	cluster: 	0.18499
+	separation:	0.12886
+	diversity:	0.00260
+	avg separation:	9.29673
+	accu: 		83.06640%
+	l1: 		196458.75
+	avg proto dist:	4.15931
+------------------------------------------
+
+epoch: 	98
+	joint
+train
+	time: 	13.29
+	cross ent: 	0.57394
+	cluster: 	0.18388
+	separation:	0.12638
+	diversity:	0.00051
+	avg separation:	9.55189
+	accu: 		83.95062%
+	l1: 		196458.75
+	avg proto dist:	4.16570
+------------------------------------------
+
+epoch: 	99
+	joint
+train
+	time: 	13.46
+	cross ent: 	0.59038
+	cluster: 	0.18921
+	separation:	0.12779
+	diversity:	0.00045
+	avg separation:	9.52485
+	accu: 		83.58358%
+	l1: 		196458.75
+	avg proto dist:	4.17066
+------------------------------------------
+
+epoch: 	100
+	joint
+train
+	time: 	13.39
+	cross ent: 	0.61833
+	cluster: 	0.19027
+	separation:	0.12932
+	diversity:	0.00064
+	avg separation:	9.52740
+	accu: 		82.09877%
+	l1: 		196458.75
+	avg proto dist:	4.18492
+test
+	time: 	9.30
+	cross ent: 	1.33412
+	cluster: 	0.22759
+	separation:	0.11773
+	diversity:	0.00000
+	avg separation:	9.56536
+	accu: 		67.89783%
+	l1: 		196458.75
+	avg proto dist:	4.18492
+	above 70.00%
+	push
+	Executing push ...
+	push time: 	239.45584344863892
+test
+	time: 	9.31
+	cross ent: 	2.29854
+	cluster: 	0.13320
+	separation:	0.03893
+	diversity:	23.99828
+	avg separation:	6.41261
+	accu: 		61.37384%
+	l1: 		196458.75
+	avg proto dist:	3.64791
+	last layer
+iteration: 	0
+train
+	time: 	13.39
+	cross ent: 	0.89844
+	cluster: 	0.09024
+	separation:	0.04801
+	diversity:	23.99828
+	avg separation:	6.50277
+	accu: 		78.96230%
+	l1: 		196235.16
+	avg proto dist:	3.64791
+test
+	time: 	9.36
+	cross ent: 	2.01987
+	cluster: 	0.13576
+	separation:	0.04148
+	diversity:	23.99828
+	avg separation:	6.44079
+	accu: 		63.23783%
+	l1: 		196235.16
+	avg proto dist:	3.64791
+iteration: 	1
+train
+	time: 	12.98
+	cross ent: 	0.72152
+	cluster: 	0.09059
+	separation:	0.04846
+	diversity:	23.99828
+	avg separation:	6.50032
+	accu: 		81.26460%
+	l1: 		195995.02
+	avg proto dist:	3.64791
+test
+	time: 	9.29
+	cross ent: 	1.90951
+	cluster: 	0.13745
+	separation:	0.04237
+	diversity:	23.99828
+	avg separation:	6.43690
+	accu: 		64.87746%
+	l1: 		195995.02
+	avg proto dist:	3.64791
+iteration: 	2
+train
+	time: 	13.27
+	cross ent: 	0.70839
+	cluster: 	0.08937
+	separation:	0.04806
+	diversity:	23.99828
+	avg separation:	6.50516
+	accu: 		81.99867%
+	l1: 		195737.06
+	avg proto dist:	3.64791
+test
+	time: 	9.39
+	cross ent: 	1.89156
+	cluster: 	0.13813
+	separation:	0.04278
+	diversity:	23.99828
+	avg separation:	6.42688
+	accu: 		64.73939%
+	l1: 		195737.06
+	avg proto dist:	3.64791
+iteration: 	3
+train
+	time: 	13.09
+	cross ent: 	0.65832
+	cluster: 	0.09026
+	separation:	0.04976
+	diversity:	23.99828
+	avg separation:	6.50591
+	accu: 		82.89957%
+	l1: 		195462.80
+	avg proto dist:	3.64791
+test
+	time: 	9.34
+	cross ent: 	1.83817
+	cluster: 	0.13768
+	separation:	0.04249
+	diversity:	23.99828
+	avg separation:	6.46992
+	accu: 		65.22264%
+	l1: 		195462.80
+	avg proto dist:	3.64791
+iteration: 	4
+train
+	time: 	13.29
+	cross ent: 	0.65006
+	cluster: 	0.09025
+	separation:	0.04706
+	diversity:	23.99828
+	avg separation:	6.49677
+	accu: 		83.11645%
+	l1: 		195169.25
+	avg proto dist:	3.64791
+test
+	time: 	9.37
+	cross ent: 	1.84653
+	cluster: 	0.13591
+	separation:	0.04129
+	diversity:	23.99828
+	avg separation:	6.43572
+	accu: 		65.37798%
+	l1: 		195169.25
+	avg proto dist:	3.64791
+iteration: 	5
+train
+	time: 	13.16
+	cross ent: 	0.64434
+	cluster: 	0.09009
+	separation:	0.04761
+	diversity:	23.99828
+	avg separation:	6.50352
+	accu: 		83.56690%
+	l1: 		194856.69
+	avg proto dist:	3.64791
+test
+	time: 	9.26
+	cross ent: 	1.82964
+	cluster: 	0.13612
+	separation:	0.04072
+	diversity:	23.99828
+	avg separation:	6.44945
+	accu: 		65.56783%
+	l1: 		194856.69
+	avg proto dist:	3.64791
+iteration: 	6
+train
+	time: 	13.10
+	cross ent: 	0.62826
+	cluster: 	0.08963
+	separation:	0.04851
+	diversity:	23.99828
+	avg separation:	6.50659
+	accu: 		84.08408%
+	l1: 		194525.86
+	avg proto dist:	3.64791
+test
+	time: 	9.52
+	cross ent: 	1.84277
+	cluster: 	0.13569
+	separation:	0.04030
+	diversity:	23.99828
+	avg separation:	6.45918
+	accu: 		65.58509%
+	l1: 		194525.86
+	avg proto dist:	3.64791
+iteration: 	7
+train
+	time: 	13.36
+	cross ent: 	0.62246
+	cluster: 	0.08997
+	separation:	0.04810
+	diversity:	23.99828
+	avg separation:	6.49827
+	accu: 		84.26760%
+	l1: 		194173.50
+	avg proto dist:	3.64791
+test
+	time: 	9.22
+	cross ent: 	1.78559
+	cluster: 	0.13576
+	separation:	0.04212
+	diversity:	23.99828
+	avg separation:	6.47914
+	accu: 		65.94753%
+	l1: 		194173.50
+	avg proto dist:	3.64791
+iteration: 	8
+train
+	time: 	13.21
+	cross ent: 	0.61988
+	cluster: 	0.09027
+	separation:	0.04808
+	diversity:	23.99828
+	avg separation:	6.50029
+	accu: 		84.20087%
+	l1: 		193804.94
+	avg proto dist:	3.64791
+test
+	time: 	9.34
+	cross ent: 	1.78353
+	cluster: 	0.13518
+	separation:	0.04084
+	diversity:	23.99828
+	avg separation:	6.44598
+	accu: 		65.96479%
+	l1: 		193804.94
+	avg proto dist:	3.64791
+iteration: 	9
+train
+	time: 	13.34
+	cross ent: 	0.61912
+	cluster: 	0.09147
+	separation:	0.04821
+	diversity:	23.99828
+	avg separation:	6.49476
+	accu: 		83.58358%
+	l1: 		193412.48
+	avg proto dist:	3.64791
+test
+	time: 	9.12
+	cross ent: 	1.80020
+	cluster: 	0.13603
+	separation:	0.04127
+	diversity:	23.99828
+	avg separation:	6.47579
+	accu: 		66.60338%
+	l1: 		193412.48
+	avg proto dist:	3.64791
+iteration: 	10
+train
+	time: 	13.20
+	cross ent: 	0.63341
+	cluster: 	0.09068
+	separation:	0.04753
+	diversity:	23.99828
+	avg separation:	6.50550
+	accu: 		84.21755%
+	l1: 		193000.77
+	avg proto dist:	3.64791
+test
+	time: 	9.32
+	cross ent: 	1.79583
+	cluster: 	0.13652
+	separation:	0.04138
+	diversity:	23.99828
+	avg separation:	6.44777
+	accu: 		66.24094%
+	l1: 		193000.77
+	avg proto dist:	3.64791
+iteration: 	11
+train
+	time: 	13.34
+	cross ent: 	0.58776
+	cluster: 	0.08989
+	separation:	0.04833
+	diversity:	23.99828
+	avg separation:	6.50913
+	accu: 		84.28428%
+	l1: 		192574.88
+	avg proto dist:	3.64791
+test
+	time: 	9.02
+	cross ent: 	1.79175
+	cluster: 	0.13572
+	separation:	0.04166
+	diversity:	23.99828
+	avg separation:	6.47085
+	accu: 		66.17190%
+	l1: 		192574.88
+	avg proto dist:	3.64791
+iteration: 	12
+train
+	time: 	13.39
+	cross ent: 	0.59399
+	cluster: 	0.09038
+	separation:	0.04837
+	diversity:	23.99828
+	avg separation:	6.50180
+	accu: 		84.70137%
+	l1: 		192123.19
+	avg proto dist:	3.64791
+test
+	time: 	9.18
+	cross ent: 	1.77780
+	cluster: 	0.13743
+	separation:	0.04065
+	diversity:	23.99828
+	avg separation:	6.42221
+	accu: 		66.01657%
+	l1: 		192123.19
+	avg proto dist:	3.64791
+iteration: 	13
+train
+	time: 	13.35
+	cross ent: 	0.61457
+	cluster: 	0.09035
+	separation:	0.04829
+	diversity:	23.99828
+	avg separation:	6.49046
+	accu: 		84.33433%
+	l1: 		191649.42
+	avg proto dist:	3.64791
+test
+	time: 	9.07
+	cross ent: 	1.76824
+	cluster: 	0.13591
+	separation:	0.04163
+	diversity:	23.99828
+	avg separation:	6.38718
+	accu: 		66.49983%
+	l1: 		191649.42
+	avg proto dist:	3.64791
+iteration: 	14
+train
+	time: 	13.30
+	cross ent: 	0.58420
+	cluster: 	0.08984
+	separation:	0.04873
+	diversity:	23.99828
+	avg separation:	6.50193
+	accu: 		84.90157%
+	l1: 		191158.78
+	avg proto dist:	3.64791
+test
+	time: 	9.57
+	cross ent: 	1.74698
+	cluster: 	0.13483
+	separation:	0.04024
+	diversity:	23.99828
+	avg separation:	6.47164
+	accu: 		66.44805%
+	l1: 		191158.78
+	avg proto dist:	3.64791
+iteration: 	15
+train
+	time: 	13.38
+	cross ent: 	0.58169
+	cluster: 	0.09236
+	separation:	0.04778
+	diversity:	23.99828
+	avg separation:	6.50284
+	accu: 		84.66800%
+	l1: 		190647.92
+	avg proto dist:	3.64791
+test
+	time: 	9.32
+	cross ent: 	1.77850
+	cluster: 	0.13620
+	separation:	0.04150
+	diversity:	23.99828
+	avg separation:	6.48048
+	accu: 		66.30998%
+	l1: 		190647.92
+	avg proto dist:	3.64791
+iteration: 	16
+train
+	time: 	13.17
+	cross ent: 	0.57955
+	cluster: 	0.09109
+	separation:	0.04810
+	diversity:	23.99828
+	avg separation:	6.50521
+	accu: 		84.85152%
+	l1: 		190127.19
+	avg proto dist:	3.64791
+test
+	time: 	9.34
+	cross ent: 	1.74794
+	cluster: 	0.13667
+	separation:	0.04238
+	diversity:	23.99828
+	avg separation:	6.46154
+	accu: 		66.91405%
+	l1: 		190127.19
+	avg proto dist:	3.64791
+iteration: 	17
+train
+	time: 	13.30
+	cross ent: 	0.55878
+	cluster: 	0.08966
+	separation:	0.04858
+	diversity:	23.99828
+	avg separation:	6.51457
+	accu: 		85.43544%
+	l1: 		189582.89
+	avg proto dist:	3.64791
+test
+	time: 	9.02
+	cross ent: 	1.73444
+	cluster: 	0.13647
+	separation:	0.04090
+	diversity:	23.99828
+	avg separation:	6.46569
+	accu: 		66.81049%
+	l1: 		189582.89
+	avg proto dist:	3.64791
+iteration: 	18
+train
+	time: 	13.36
+	cross ent: 	0.55097
+	cluster: 	0.09003
+	separation:	0.04862
+	diversity:	23.99828
+	avg separation:	6.50531
+	accu: 		85.60227%
+	l1: 		189016.89
+	avg proto dist:	3.64791
+test
+	time: 	9.29
+	cross ent: 	1.75076
+	cluster: 	0.13603
+	separation:	0.04117
+	diversity:	23.99828
+	avg separation:	6.44190
+	accu: 		67.24197%
+	l1: 		189016.89
+	avg proto dist:	3.64791
+iteration: 	19
+train
+	time: 	12.84
+	cross ent: 	0.56984
+	cluster: 	0.08871
+	separation:	0.04922
+	diversity:	23.99828
+	avg separation:	6.51284
+	accu: 		85.13514%
+	l1: 		188434.09
+	avg proto dist:	3.64791
+test
+	time: 	9.37
+	cross ent: 	1.74902
+	cluster: 	0.13601
+	separation:	0.03926
+	diversity:	23.99828
+	avg separation:	6.45029
+	accu: 		66.36175%
+	l1: 		188434.09
+	avg proto dist:	3.64791
+------------------------------------------
+
+epoch: 	101
+	joint
+train
+	time: 	13.25
+	cross ent: 	0.91745
+	cluster: 	0.19617
+	separation:	0.10583
+	diversity:	0.54457
+	avg separation:	7.19791
+	accu: 		76.69336%
+	l1: 		188434.09
+	avg proto dist:	3.86519
+------------------------------------------
+
+epoch: 	102
+	joint
+train
+	time: 	13.11
+	cross ent: 	0.73918
+	cluster: 	0.19635
+	separation:	0.11922
+	diversity:	0.00516
+	avg separation:	7.73032
+	accu: 		80.64731%
+	l1: 		188434.09
+	avg proto dist:	3.92134
+------------------------------------------
+
+epoch: 	103
+	joint
+train
+	time: 	12.80
+	cross ent: 	0.71111
+	cluster: 	0.18774
+	separation:	0.11497
+	diversity:	0.00219
+	avg separation:	7.88237
+	accu: 		81.23123%
+	l1: 		188434.09
+	avg proto dist:	3.95984
+------------------------------------------
+
+epoch: 	104
+	joint
+train
+	time: 	13.40
+	cross ent: 	0.70487
+	cluster: 	0.18806
+	separation:	0.12113
+	diversity:	0.00253
+	avg separation:	8.16227
+	accu: 		81.26460%
+	l1: 		188434.09
+	avg proto dist:	3.99917
+------------------------------------------
+
+epoch: 	105
+	joint
+train
+	time: 	13.42
+	cross ent: 	0.67906
+	cluster: 	0.18887
+	separation:	0.12406
+	diversity:	0.00138
+	avg separation:	8.32907
+	accu: 		82.04872%
+	l1: 		188434.09
+	avg proto dist:	4.02708
+------------------------------------------
+
+epoch: 	106
+	joint
+train
+	time: 	13.34
+	cross ent: 	0.56307
+	cluster: 	0.17652
+	separation:	0.12429
+	diversity:	0.00135
+	avg separation:	8.42418
+	accu: 		84.75142%
+	l1: 		188434.09
+	avg proto dist:	4.03560
+------------------------------------------
+
+epoch: 	107
+	joint
+train
+	time: 	12.67
+	cross ent: 	0.57683
+	cluster: 	0.17638
+	separation:	0.12519
+	diversity:	0.00134
+	avg separation:	8.46348
+	accu: 		84.18418%
+	l1: 		188434.09
+	avg proto dist:	4.05456
+------------------------------------------
+
+epoch: 	108
+	joint
+train
+	time: 	13.20
+	cross ent: 	0.56936
+	cluster: 	0.17565
+	separation:	0.12556
+	diversity:	0.00184
+	avg separation:	8.60780
+	accu: 		85.08509%
+	l1: 		188434.09
+	avg proto dist:	4.06909
+------------------------------------------
+
+epoch: 	109
+	joint
+train
+	time: 	13.49
+	cross ent: 	0.55560
+	cluster: 	0.17488
+	separation:	0.12698
+	diversity:	0.00119
+	avg separation:	8.63108
+	accu: 		85.15182%
+	l1: 		188434.09
+	avg proto dist:	4.08720
+------------------------------------------
+
+epoch: 	110
+	joint
+train
+	time: 	13.29
+	cross ent: 	0.55359
+	cluster: 	0.17434
+	separation:	0.12730
+	diversity:	0.00158
+	avg separation:	8.68586
+	accu: 		84.81815%
+	l1: 		188434.09
+	avg proto dist:	4.10649
+------------------------------------------
+
+epoch: 	111
+	joint
+train
+	time: 	13.31
+	cross ent: 	0.59357
+	cluster: 	0.18206
+	separation:	0.12834
+	diversity:	0.00086
+	avg separation:	8.81331
+	accu: 		84.25092%
+	l1: 		188434.09
+	avg proto dist:	4.12704
+------------------------------------------
+
+epoch: 	112
+	joint
+train
+	time: 	13.35
+	cross ent: 	0.55149
+	cluster: 	0.17860
+	separation:	0.13908
+	diversity:	0.00108
+	avg separation:	9.02872
+	accu: 		85.36870%
+	l1: 		188434.09
+	avg proto dist:	4.14352
+------------------------------------------
+
+epoch: 	113
+	joint
+train
+	time: 	13.18
+	cross ent: 	0.51586
+	cluster: 	0.17223
+	separation:	0.13416
+	diversity:	0.00106
+	avg separation:	9.03688
+	accu: 		86.03604%
+	l1: 		188434.09
+	avg proto dist:	4.15349
+------------------------------------------
+
+epoch: 	114
+	joint
+train
+	time: 	13.28
+	cross ent: 	0.51126
+	cluster: 	0.16878
+	separation:	0.13032
+	diversity:	0.00105
+	avg separation:	9.00867
+	accu: 		86.03604%
+	l1: 		188434.09
+	avg proto dist:	4.17519
+------------------------------------------
+
+epoch: 	115
+	joint
+train
+	time: 	13.06
+	cross ent: 	0.47720
+	cluster: 	0.16580
+	separation:	0.13283
+	diversity:	0.00100
+	avg separation:	9.20867
+	accu: 		86.72005%
+	l1: 		188434.09
+	avg proto dist:	4.18393
+------------------------------------------
+
+epoch: 	116
+	joint
+train
+	time: 	13.31
+	cross ent: 	0.46535
+	cluster: 	0.17189
+	separation:	0.13835
+	diversity:	0.00101
+	avg separation:	9.27979
+	accu: 		86.92025%
+	l1: 		188434.09
+	avg proto dist:	4.19163
+------------------------------------------
+
+epoch: 	117
+	joint
+train
+	time: 	13.32
+	cross ent: 	0.49159
+	cluster: 	0.17485
+	separation:	0.13169
+	diversity:	0.00100
+	avg separation:	9.26160
+	accu: 		86.65332%
+	l1: 		188434.09
+	avg proto dist:	4.20067
+------------------------------------------
+
+epoch: 	118
+	joint
+train
+	time: 	13.28
+	cross ent: 	0.46294
+	cluster: 	0.17086
+	separation:	0.13414
+	diversity:	0.00079
+	avg separation:	9.37855
+	accu: 		87.42075%
+	l1: 		188434.09
+	avg proto dist:	4.21401
+------------------------------------------
+
+epoch: 	119
+	joint
+train
+	time: 	13.41
+	cross ent: 	0.50065
+	cluster: 	0.17600
+	separation:	0.13535
+	diversity:	0.00138
+	avg separation:	9.46342
+	accu: 		86.38639%
+	l1: 		188434.09
+	avg proto dist:	4.22628
+------------------------------------------
+
+epoch: 	120
+	joint
+train
+	time: 	13.09
+	cross ent: 	0.46074
+	cluster: 	0.17135
+	separation:	0.13908
+	diversity:	0.00118
+	avg separation:	9.64924
+	accu: 		87.60427%
+	l1: 		188434.09
+	avg proto dist:	4.23190
+------------------------------------------
+
+epoch: 	121
+	joint
+train
+	time: 	13.40
+	cross ent: 	0.42113
+	cluster: 	0.16457
+	separation:	0.13459
+	diversity:	0.00133
+	avg separation:	9.77941
+	accu: 		88.08809%
+	l1: 		188434.09
+	avg proto dist:	4.24288
+------------------------------------------
+
+epoch: 	122
+	joint
+train
+	time: 	13.31
+	cross ent: 	0.44086
+	cluster: 	0.16416
+	separation:	0.13173
+	diversity:	0.00190
+	avg separation:	9.84376
+	accu: 		87.95462%
+	l1: 		188434.09
+	avg proto dist:	4.25528
+------------------------------------------
+
+epoch: 	123
+	joint
+train
+	time: 	13.41
+	cross ent: 	0.42636
+	cluster: 	0.16971
+	separation:	0.14128
+	diversity:	0.00135
+	avg separation:	9.90371
+	accu: 		88.67201%
+	l1: 		188434.09
+	avg proto dist:	4.26624
+------------------------------------------
+
+epoch: 	124
+	joint
+train
+	time: 	13.29
+	cross ent: 	0.47634
+	cluster: 	0.17487
+	separation:	0.14398
+	diversity:	0.00102
+	avg separation:	10.03552
+	accu: 		87.33734%
+	l1: 		188434.09
+	avg proto dist:	4.28577
+------------------------------------------
+
+epoch: 	125
+	joint
+train
+	time: 	13.28
+	cross ent: 	0.45516
+	cluster: 	0.17263
+	separation:	0.13971
+	diversity:	0.00177
+	avg separation:	10.14129
+	accu: 		88.03804%
+	l1: 		188434.09
+	avg proto dist:	4.29444
+------------------------------------------
+
+epoch: 	126
+	joint
+train
+	time: 	13.20
+	cross ent: 	0.43991
+	cluster: 	0.16924
+	separation:	0.13834
+	diversity:	0.00107
+	avg separation:	10.11766
+	accu: 		88.27160%
+	l1: 		188434.09
+	avg proto dist:	4.30698
+------------------------------------------
+
+epoch: 	127
+	joint
+train
+	time: 	13.48
+	cross ent: 	0.40631
+	cluster: 	0.16698
+	separation:	0.14560
+	diversity:	0.00080
+	avg separation:	10.27161
+	accu: 		88.97231%
+	l1: 		188434.09
+	avg proto dist:	4.31472
+------------------------------------------
+
+epoch: 	128
+	joint
+train
+	time: 	13.03
+	cross ent: 	0.41092
+	cluster: 	0.16155
+	separation:	0.14160
+	diversity:	0.00119
+	avg separation:	10.32269
+	accu: 		88.77211%
+	l1: 		188434.09
+	avg proto dist:	4.32594
+------------------------------------------
+
+epoch: 	129
+	joint
+train
+	time: 	13.22
+	cross ent: 	0.41492
+	cluster: 	0.15878
+	separation:	0.13997
+	diversity:	0.00138
+	avg separation:	10.49849
+	accu: 		88.68869%
+	l1: 		188434.09
+	avg proto dist:	4.34383
+------------------------------------------
+
+epoch: 	130
+	joint
+train
+	time: 	13.50
+	cross ent: 	0.45266
+	cluster: 	0.17328
+	separation:	0.14389
+	diversity:	0.00137
+	avg separation:	10.64434
+	accu: 		87.82115%
+	l1: 		188434.09
+	avg proto dist:	4.35753
+------------------------------------------
+
+epoch: 	131
+	joint
+train
+	time: 	13.00
+	cross ent: 	0.37285
+	cluster: 	0.15800
+	separation:	0.14663
+	diversity:	0.00096
+	avg separation:	10.81012
+	accu: 		90.47381%
+	l1: 		188434.09
+	avg proto dist:	4.36725
+------------------------------------------
+
+epoch: 	132
+	joint
+train
+	time: 	13.17
+	cross ent: 	0.34873
+	cluster: 	0.15028
+	separation:	0.14618
+	diversity:	0.00172
+	avg separation:	10.86659
+	accu: 		90.49049%
+	l1: 		188434.09
+	avg proto dist:	4.37837
+------------------------------------------
+
+epoch: 	133
+	joint
+train
+	time: 	13.38
+	cross ent: 	0.40093
+	cluster: 	0.16527
+	separation:	0.14940
+	diversity:	0.00088
+	avg separation:	10.99483
+	accu: 		88.97231%
+	l1: 		188434.09
+	avg proto dist:	4.39015
+------------------------------------------
+
+epoch: 	134
+	joint
+train
+	time: 	13.37
+	cross ent: 	0.37803
+	cluster: 	0.16257
+	separation:	0.14756
+	diversity:	0.00115
+	avg separation:	11.19201
+	accu: 		89.85652%
+	l1: 		188434.09
+	avg proto dist:	4.39811
+------------------------------------------
+
+epoch: 	135
+	joint
+train
+	time: 	13.41
+	cross ent: 	0.37358
+	cluster: 	0.16036
+	separation:	0.14730
+	diversity:	0.00095
+	avg separation:	11.36043
+	accu: 		90.22356%
+	l1: 		188434.09
+	avg proto dist:	4.41512
+------------------------------------------
+
+epoch: 	136
+	joint
+train
+	time: 	12.99
+	cross ent: 	0.38984
+	cluster: 	0.16222
+	separation:	0.15173
+	diversity:	0.00100
+	avg separation:	11.47501
+	accu: 		89.43944%
+	l1: 		188434.09
+	avg proto dist:	4.43492
+------------------------------------------
+
+epoch: 	137
+	joint
+train
+	time: 	13.48
+	cross ent: 	0.40735
+	cluster: 	0.16632
+	separation:	0.15136
+	diversity:	0.00094
+	avg separation:	11.62167
+	accu: 		89.15582%
+	l1: 		188434.09
+	avg proto dist:	4.44975
+------------------------------------------
+
+epoch: 	138
+	joint
+train
+	time: 	13.40
+	cross ent: 	0.41591
+	cluster: 	0.16641
+	separation:	0.14292
+	diversity:	0.00145
+	avg separation:	11.60181
+	accu: 		88.80547%
+	l1: 		188434.09
+	avg proto dist:	4.46384
+------------------------------------------
+
+epoch: 	139
+	joint
+train
+	time: 	13.43
+	cross ent: 	0.40580
+	cluster: 	0.16462
+	separation:	0.14913
+	diversity:	0.00137
+	avg separation:	11.70372
+	accu: 		89.07241%
+	l1: 		188434.09
+	avg proto dist:	4.48688
+------------------------------------------
+
+epoch: 	140
+	joint
+train
+	time: 	13.40
+	cross ent: 	0.37221
+	cluster: 	0.16296
+	separation:	0.14753
+	diversity:	0.00097
+	avg separation:	11.91716
+	accu: 		89.93994%
+	l1: 		188434.09
+	avg proto dist:	4.50550
+------------------------------------------
+
+epoch: 	141
+	joint
+train
+	time: 	13.27
+	cross ent: 	0.37507
+	cluster: 	0.16195
+	separation:	0.15393
+	diversity:	0.00129
+	avg separation:	12.22355
+	accu: 		89.70637%
+	l1: 		188434.09
+	avg proto dist:	4.52548
+------------------------------------------
+
+epoch: 	142
+	joint
+train
+	time: 	13.35
+	cross ent: 	0.34434
+	cluster: 	0.15918
+	separation:	0.15437
+	diversity:	0.00133
+	avg separation:	12.44161
+	accu: 		90.44044%
+	l1: 		188434.09
+	avg proto dist:	4.54836
+------------------------------------------
+
+epoch: 	143
+	joint
+train
+	time: 	13.30
+	cross ent: 	0.32952
+	cluster: 	0.15565
+	separation:	0.15888
+	diversity:	0.00225
+	avg separation:	12.53904
+	accu: 		90.82416%
+	l1: 		188434.09
+	avg proto dist:	4.56404
+------------------------------------------
+
+epoch: 	144
+	joint
+train
+	time: 	13.38
+	cross ent: 	0.33081
+	cluster: 	0.15074
+	separation:	0.15324
+	diversity:	0.00095
+	avg separation:	12.75545
+	accu: 		90.80747%
+	l1: 		188434.09
+	avg proto dist:	4.57623
+------------------------------------------
+
+epoch: 	145
+	joint
+train
+	time: 	13.40
+	cross ent: 	0.33923
+	cluster: 	0.15546
+	separation:	0.15383
+	diversity:	0.00273
+	avg separation:	12.73573
+	accu: 		90.89089%
+	l1: 		188434.09
+	avg proto dist:	4.59152
+------------------------------------------
+
+epoch: 	146
+	joint
+train
+	time: 	13.34
+	cross ent: 	0.37411
+	cluster: 	0.15808
+	separation:	0.15836
+	diversity:	0.00121
+	avg separation:	13.00219
+	accu: 		89.90657%
+	l1: 		188434.09
+	avg proto dist:	4.60982
+------------------------------------------
+
+epoch: 	147
+	joint
+train
+	time: 	13.50
+	cross ent: 	0.36684
+	cluster: 	0.15925
+	separation:	0.15368
+	diversity:	0.00111
+	avg separation:	13.21366
+	accu: 		90.17351%
+	l1: 		188434.09
+	avg proto dist:	4.63294
+------------------------------------------
+
+epoch: 	148
+	joint
+train
+	time: 	13.46
+	cross ent: 	0.35415
+	cluster: 	0.15863
+	separation:	0.15472
+	diversity:	0.00081
+	avg separation:	13.50119
+	accu: 		90.79079%
+	l1: 		188434.09
+	avg proto dist:	4.64680
+------------------------------------------
+
+epoch: 	149
+	joint
+train
+	time: 	13.38
+	cross ent: 	0.34567
+	cluster: 	0.15418
+	separation:	0.15997
+	diversity:	0.00086
+	avg separation:	13.62229
+	accu: 		90.44044%
+	l1: 		188434.09
+	avg proto dist:	4.66227
+------------------------------------------
+
+epoch: 	150
+	joint
+train
+	time: 	13.37
+	cross ent: 	0.32884
+	cluster: 	0.15289
+	separation:	0.15875
+	diversity:	0.00124
+	avg separation:	13.90189
+	accu: 		91.35802%
+	l1: 		188434.09
+	avg proto dist:	4.68113
+test
+	time: 	9.33
+	cross ent: 	1.44668
+	cluster: 	0.25484
+	separation:	0.15569
+	diversity:	0.00000
+	avg separation:	13.82232
+	accu: 		70.57301%
+	l1: 		188434.09
+	avg proto dist:	4.68113
+	above 70.00%
+	push
+	Executing push ...
+	push time: 	242.59221529960632
+test
+	time: 	9.51
+	cross ent: 	2.07639
+	cluster: 	0.16648
+	separation:	0.06772
+	diversity:	19.01196
+	avg separation:	7.52759
+	accu: 		68.34657%
+	l1: 		188434.09
+	avg proto dist:	3.87871
+	last layer
+iteration: 	0
+train
+	time: 	13.35
+	cross ent: 	0.38003
+	cluster: 	0.07572
+	separation:	0.07458
+	diversity:	19.01196
+	avg separation:	7.60698
+	accu: 		90.52386%
+	l1: 		187795.81
+	avg proto dist:	3.87871
+test
+	time: 	9.41
+	cross ent: 	1.89440
+	cluster: 	0.16315
+	separation:	0.06767
+	diversity:	19.01196
+	avg separation:	7.49313
+	accu: 		69.81360%
+	l1: 		187795.81
+	avg proto dist:	3.87871
+iteration: 	1
+train
+	time: 	13.13
+	cross ent: 	0.29852
+	cluster: 	0.07484
+	separation:	0.07501
+	diversity:	19.01196
+	avg separation:	7.59590
+	accu: 		92.72606%
+	l1: 		187124.75
+	avg proto dist:	3.87871
+test
+	time: 	9.36
+	cross ent: 	1.87314
+	cluster: 	0.16287
+	separation:	0.06589
+	diversity:	19.01196
+	avg separation:	7.46524
+	accu: 		70.21056%
+	l1: 		187124.75
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	2
+train
+	time: 	13.37
+	cross ent: 	0.26831
+	cluster: 	0.07261
+	separation:	0.07553
+	diversity:	19.01196
+	avg separation:	7.61860
+	accu: 		92.99299%
+	l1: 		186416.67
+	avg proto dist:	3.87871
+test
+	time: 	9.30
+	cross ent: 	1.85801
+	cluster: 	0.16013
+	separation:	0.06221
+	diversity:	19.01196
+	avg separation:	7.48443
+	accu: 		70.08975%
+	l1: 		186416.67
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	3
+train
+	time: 	13.41
+	cross ent: 	0.28444
+	cluster: 	0.07419
+	separation:	0.07513
+	diversity:	19.01196
+	avg separation:	7.60958
+	accu: 		92.89289%
+	l1: 		185686.39
+	avg proto dist:	3.87871
+test
+	time: 	9.37
+	cross ent: 	1.84014
+	cluster: 	0.16324
+	separation:	0.06777
+	diversity:	19.01196
+	avg separation:	7.47842
+	accu: 		70.52123%
+	l1: 		185686.39
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	4
+train
+	time: 	13.34
+	cross ent: 	0.27403
+	cluster: 	0.07339
+	separation:	0.07503
+	diversity:	19.01196
+	avg separation:	7.59974
+	accu: 		92.94294%
+	l1: 		184933.69
+	avg proto dist:	3.87871
+test
+	time: 	9.31
+	cross ent: 	1.83451
+	cluster: 	0.16129
+	separation:	0.06668
+	diversity:	19.01196
+	avg separation:	7.49264
+	accu: 		70.65930%
+	l1: 		184933.69
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	5
+train
+	time: 	13.05
+	cross ent: 	0.26964
+	cluster: 	0.07440
+	separation:	0.07588
+	diversity:	19.01196
+	avg separation:	7.60739
+	accu: 		93.09309%
+	l1: 		184137.86
+	avg proto dist:	3.87871
+test
+	time: 	9.31
+	cross ent: 	1.84741
+	cluster: 	0.16383
+	separation:	0.06812
+	diversity:	19.01196
+	avg separation:	7.49678
+	accu: 		70.24508%
+	l1: 		184137.86
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	6
+train
+	time: 	12.82
+	cross ent: 	0.25895
+	cluster: 	0.07358
+	separation:	0.07470
+	diversity:	19.01196
+	avg separation:	7.59780
+	accu: 		93.10978%
+	l1: 		183312.31
+	avg proto dist:	3.87871
+test
+	time: 	9.45
+	cross ent: 	1.82976
+	cluster: 	0.16329
+	separation:	0.06826
+	diversity:	19.01196
+	avg separation:	7.45476
+	accu: 		70.95271%
+	l1: 		183312.31
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	7
+train
+	time: 	12.84
+	cross ent: 	0.27478
+	cluster: 	0.07614
+	separation:	0.07523
+	diversity:	19.01196
+	avg separation:	7.60695
+	accu: 		92.99299%
+	l1: 		182468.11
+	avg proto dist:	3.87871
+test
+	time: 	9.34
+	cross ent: 	1.83805
+	cluster: 	0.15946
+	separation:	0.06451
+	diversity:	19.01196
+	avg separation:	7.49012
+	accu: 		70.48671%
+	l1: 		182468.11
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	8
+train
+	time: 	12.92
+	cross ent: 	0.26297
+	cluster: 	0.07351
+	separation:	0.07478
+	diversity:	19.01196
+	avg separation:	7.60045
+	accu: 		93.54354%
+	l1: 		181587.11
+	avg proto dist:	3.87871
+test
+	time: 	9.33
+	cross ent: 	1.83152
+	cluster: 	0.16433
+	separation:	0.06863
+	diversity:	19.01196
+	avg separation:	7.47459
+	accu: 		70.60753%
+	l1: 		181587.11
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	9
+train
+	time: 	13.29
+	cross ent: 	0.26430
+	cluster: 	0.07502
+	separation:	0.07599
+	diversity:	19.01196
+	avg separation:	7.60443
+	accu: 		93.10978%
+	l1: 		180675.98
+	avg proto dist:	3.87871
+test
+	time: 	9.32
+	cross ent: 	1.83626
+	cluster: 	0.16207
+	separation:	0.06390
+	diversity:	19.01196
+	avg separation:	7.52058
+	accu: 		70.22782%
+	l1: 		180675.98
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	10
+train
+	time: 	13.20
+	cross ent: 	0.25888
+	cluster: 	0.07371
+	separation:	0.07696
+	diversity:	19.01196
+	avg separation:	7.61068
+	accu: 		93.25993%
+	l1: 		179740.55
+	avg proto dist:	3.87871
+test
+	time: 	9.33
+	cross ent: 	1.83366
+	cluster: 	0.16314
+	separation:	0.06794
+	diversity:	19.01196
+	avg separation:	7.50629
+	accu: 		70.90093%
+	l1: 		179740.55
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	11
+train
+	time: 	13.19
+	cross ent: 	0.26262
+	cluster: 	0.07353
+	separation:	0.07639
+	diversity:	19.01196
+	avg separation:	7.61531
+	accu: 		93.47681%
+	l1: 		178778.89
+	avg proto dist:	3.87871
+test
+	time: 	9.31
+	cross ent: 	1.83501
+	cluster: 	0.16155
+	separation:	0.06532
+	diversity:	19.01196
+	avg separation:	7.49622
+	accu: 		70.31412%
+	l1: 		178778.89
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	12
+train
+	time: 	13.30
+	cross ent: 	0.25783
+	cluster: 	0.07432
+	separation:	0.07538
+	diversity:	19.01196
+	avg separation:	7.61212
+	accu: 		93.71038%
+	l1: 		177787.28
+	avg proto dist:	3.87871
+test
+	time: 	9.45
+	cross ent: 	1.82543
+	cluster: 	0.16422
+	separation:	0.06762
+	diversity:	19.01196
+	avg separation:	7.53463
+	accu: 		70.53849%
+	l1: 		177787.28
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	13
+train
+	time: 	13.25
+	cross ent: 	0.27413
+	cluster: 	0.07541
+	separation:	0.07561
+	diversity:	19.01196
+	avg separation:	7.60414
+	accu: 		92.95963%
+	l1: 		176790.88
+	avg proto dist:	3.87871
+test
+	time: 	9.35
+	cross ent: 	1.83214
+	cluster: 	0.16325
+	separation:	0.06842
+	diversity:	19.01196
+	avg separation:	7.52914
+	accu: 		70.57301%
+	l1: 		176790.88
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	14
+train
+	time: 	13.26
+	cross ent: 	0.27153
+	cluster: 	0.07466
+	separation:	0.07509
+	diversity:	19.01196
+	avg separation:	7.61381
+	accu: 		93.02636%
+	l1: 		175775.25
+	avg proto dist:	3.87871
+test
+	time: 	9.31
+	cross ent: 	1.83437
+	cluster: 	0.16288
+	separation:	0.06709
+	diversity:	19.01196
+	avg separation:	7.50910
+	accu: 		70.60753%
+	l1: 		175775.25
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	15
+train
+	time: 	13.17
+	cross ent: 	0.25581
+	cluster: 	0.07543
+	separation:	0.07423
+	diversity:	19.01196
+	avg separation:	7.60461
+	accu: 		93.32666%
+	l1: 		174750.09
+	avg proto dist:	3.87871
+test
+	time: 	9.35
+	cross ent: 	1.82109
+	cluster: 	0.16235
+	separation:	0.06778
+	diversity:	19.01196
+	avg separation:	7.47514
+	accu: 		70.62478%
+	l1: 		174750.09
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	16
+train
+	time: 	13.28
+	cross ent: 	0.27301
+	cluster: 	0.07427
+	separation:	0.07449
+	diversity:	19.01196
+	avg separation:	7.60382
+	accu: 		93.36003%
+	l1: 		173686.97
+	avg proto dist:	3.87871
+test
+	time: 	9.40
+	cross ent: 	1.82347
+	cluster: 	0.16288
+	separation:	0.06542
+	diversity:	19.01196
+	avg separation:	7.50349
+	accu: 		70.53849%
+	l1: 		173686.97
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	17
+train
+	time: 	12.75
+	cross ent: 	0.25720
+	cluster: 	0.07455
+	separation:	0.07582
+	diversity:	19.01196
+	avg separation:	7.60088
+	accu: 		93.67701%
+	l1: 		172618.52
+	avg proto dist:	3.87871
+test
+	time: 	9.37
+	cross ent: 	1.83485
+	cluster: 	0.16264
+	separation:	0.06898
+	diversity:	19.01196
+	avg separation:	7.52871
+	accu: 		70.62478%
+	l1: 		172618.52
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	18
+train
+	time: 	12.58
+	cross ent: 	0.28366
+	cluster: 	0.07405
+	separation:	0.07481
+	diversity:	19.01196
+	avg separation:	7.60823
+	accu: 		92.95963%
+	l1: 		171559.03
+	avg proto dist:	3.87871
+test
+	time: 	8.80
+	cross ent: 	1.83410
+	cluster: 	0.16323
+	separation:	0.06666
+	diversity:	19.01196
+	avg separation:	7.47465
+	accu: 		70.38315%
+	l1: 		171559.03
+	avg proto dist:	3.87871
+	above 70.00%
+iteration: 	19
+train
+	time: 	13.27
+	cross ent: 	0.28682
+	cluster: 	0.07459
+	separation:	0.07589
+	diversity:	19.01196
+	avg separation:	7.61002
+	accu: 		92.89289%
+	l1: 		170488.98
+	avg proto dist:	3.87871
+test
+	time: 	9.36
+	cross ent: 	1.84182
+	cluster: 	0.16204
+	separation:	0.06597
+	diversity:	19.01196
+	avg separation:	7.51771
+	accu: 		70.59027%
+	l1: 		170488.98
+	avg proto dist:	3.87871
+	above 70.00%
+------------------------------------------
+
+epoch: 	151
+	joint
+train
+	time: 	13.30
+	cross ent: 	0.55398
+	cluster: 	0.14648
+	separation:	0.12467
+	diversity:	0.45032
+	avg separation:	8.54624
+	accu: 		87.27060%
+	l1: 		170488.98
+	avg proto dist:	4.13056
+------------------------------------------
+
+epoch: 	152
+	joint
+train
+	time: 	13.39
+	cross ent: 	0.51934
+	cluster: 	0.15674
+	separation:	0.13496
+	diversity:	0.00374
+	avg separation:	9.01126
+	accu: 		88.18819%
+	l1: 		170488.98
+	avg proto dist:	4.19921
+------------------------------------------
+
+epoch: 	153
+	joint
+train
+	time: 	13.33
+	cross ent: 	0.41010
+	cluster: 	0.14264
+	separation:	0.14333
+	diversity:	0.00363
+	avg separation:	9.32024
+	accu: 		90.60727%
+	l1: 		170488.98
+	avg proto dist:	4.24290
+------------------------------------------
+
+epoch: 	154
+	joint
+train
+	time: 	13.04
+	cross ent: 	0.42632
+	cluster: 	0.14786
+	separation:	0.14764
+	diversity:	0.00259
+	avg separation:	9.64018
+	accu: 		90.07341%
+	l1: 		170488.98
+	avg proto dist:	4.28361
+------------------------------------------
+
+epoch: 	155
+	joint
+train
+	time: 	13.49
+	cross ent: 	0.40247
+	cluster: 	0.14237
+	separation:	0.13813
+	diversity:	0.00272
+	avg separation:	9.70854
+	accu: 		90.17351%
+	l1: 		170488.98
+	avg proto dist:	4.30839
+------------------------------------------
+
+epoch: 	156
+	joint
+train
+	time: 	13.38
+	cross ent: 	0.39548
+	cluster: 	0.14388
+	separation:	0.14367
+	diversity:	0.00262
+	avg separation:	9.98341
+	accu: 		90.52386%
+	l1: 		170488.98
+	avg proto dist:	4.33791
+------------------------------------------
+
+epoch: 	157
+	joint
+train
+	time: 	13.27
+	cross ent: 	0.41800
+	cluster: 	0.14853
+	separation:	0.15109
+	diversity:	0.00180
+	avg separation:	10.22965
+	accu: 		89.58959%
+	l1: 		170488.98
+	avg proto dist:	4.36092
+------------------------------------------
+
+epoch: 	158
+	joint
+train
+	time: 	13.39
+	cross ent: 	0.37687
+	cluster: 	0.13990
+	separation:	0.15407
+	diversity:	0.00186
+	avg separation:	10.29435
+	accu: 		91.20787%
+	l1: 		170488.98
+	avg proto dist:	4.38373
+------------------------------------------
+
+epoch: 	159
+	joint
+train
+	time: 	13.28
+	cross ent: 	0.34563
+	cluster: 	0.13452
+	separation:	0.15747
+	diversity:	0.00149
+	avg separation:	10.44439
+	accu: 		91.80848%
+	l1: 		170488.98
+	avg proto dist:	4.40894
+------------------------------------------
+
+epoch: 	160
+	joint
+train
+	time: 	13.15
+	cross ent: 	0.32313
+	cluster: 	0.13058
+	separation:	0.15759
+	diversity:	0.00144
+	avg separation:	10.65689
+	accu: 		92.30898%
+	l1: 		170488.98
+	avg proto dist:	4.42658
+------------------------------------------
+
+epoch: 	161
+	joint
+train
+	time: 	13.32
+	cross ent: 	0.33130
+	cluster: 	0.13433
+	separation:	0.15606
+	diversity:	0.00282
+	avg separation:	10.72443
+	accu: 		92.05873%
+	l1: 		170488.98
+	avg proto dist:	4.44189
+------------------------------------------
+
+epoch: 	162
+	joint
+train
+	time: 	13.29
+	cross ent: 	0.30081
+	cluster: 	0.13030
+	separation:	0.15657
+	diversity:	0.00205
+	avg separation:	10.79942
+	accu: 		92.27561%
+	l1: 		170488.98
+	avg proto dist:	4.46115
+------------------------------------------
+
+epoch: 	163
+	joint
+train
+	time: 	13.26
+	cross ent: 	0.34982
+	cluster: 	0.14064
+	separation:	0.16158
+	diversity:	0.00198
+	avg separation:	11.03782
+	accu: 		91.55822%
+	l1: 		170488.98
+	avg proto dist:	4.48547
+------------------------------------------
+
+epoch: 	164
+	joint
+train
+	time: 	13.20
+	cross ent: 	0.31262
+	cluster: 	0.13637
+	separation:	0.16172
+	diversity:	0.00106
+	avg separation:	11.08784
+	accu: 		92.09209%
+	l1: 		170488.98
+	avg proto dist:	4.50575
+------------------------------------------
+
+epoch: 	165
+	joint
+train
+	time: 	13.28
+	cross ent: 	0.33238
+	cluster: 	0.14009
+	separation:	0.16457
+	diversity:	0.00214
+	avg separation:	11.20296
+	accu: 		92.29229%
+	l1: 		170488.98
+	avg proto dist:	4.51766
+------------------------------------------
+
+epoch: 	166
+	joint
+train
+	time: 	13.31
+	cross ent: 	0.30753
+	cluster: 	0.13626
+	separation:	0.16004
+	diversity:	0.00216
+	avg separation:	11.33731
+	accu: 		92.07541%
+	l1: 		170488.98
+	avg proto dist:	4.53148
+------------------------------------------
+
+epoch: 	167
+	joint
+train
+	time: 	13.24
+	cross ent: 	0.30615
+	cluster: 	0.13854
+	separation:	0.17130
+	diversity:	0.00205
+	avg separation:	11.72227
+	accu: 		92.99299%
+	l1: 		170488.98
+	avg proto dist:	4.54643
+------------------------------------------
+
+epoch: 	168
+	joint
+train
+	time: 	13.22
+	cross ent: 	0.32847
+	cluster: 	0.14016
+	separation:	0.16427
+	diversity:	0.00195
+	avg separation:	11.61096
+	accu: 		91.75843%
+	l1: 		170488.98
+	avg proto dist:	4.55840
+------------------------------------------
+
+epoch: 	169
+	joint
+train
+	time: 	12.98
+	cross ent: 	0.33518
+	cluster: 	0.13927
+	separation:	0.17345
+	diversity:	0.00168
+	avg separation:	11.72873
+	accu: 		91.40807%
+	l1: 		170488.98
+	avg proto dist:	4.58880
+------------------------------------------
+
+epoch: 	170
+	joint
+train
+	time: 	13.49
+	cross ent: 	0.34201
+	cluster: 	0.14258
+	separation:	0.17390
+	diversity:	0.00190
+	avg separation:	11.85421
+	accu: 		91.70838%
+	l1: 		170488.98
+	avg proto dist:	4.62044
+------------------------------------------
+
+epoch: 	171
+	joint
+train
+	time: 	13.31
+	cross ent: 	0.30236
+	cluster: 	0.13792
+	separation:	0.17887
+	diversity:	0.00231
+	avg separation:	12.23294
+	accu: 		92.14214%
+	l1: 		170488.98
+	avg proto dist:	4.64427
+------------------------------------------
+
+epoch: 	172
+	joint
+train
+	time: 	13.30
+	cross ent: 	0.32898
+	cluster: 	0.14066
+	separation:	0.17918
+	diversity:	0.00286
+	avg separation:	12.45905
+	accu: 		92.00868%
+	l1: 		170488.98
+	avg proto dist:	4.67235
+------------------------------------------
+
+epoch: 	173
+	joint
+train
+	time: 	13.52
+	cross ent: 	0.30255
+	cluster: 	0.13765
+	separation:	0.18026
+	diversity:	0.00103
+	avg separation:	12.63437
+	accu: 		92.79279%
+	l1: 		170488.98
+	avg proto dist:	4.69768
+------------------------------------------
+
+epoch: 	174
+	joint
+train
+	time: 	13.45
+	cross ent: 	0.30993
+	cluster: 	0.13994
+	separation:	0.17952
+	diversity:	0.00141
+	avg separation:	12.90385
+	accu: 		92.59259%
+	l1: 		170488.98
+	avg proto dist:	4.71534
+------------------------------------------
+
+epoch: 	175
+	joint
+train
+	time: 	13.13
+	cross ent: 	0.35415
+	cluster: 	0.14598
+	separation:	0.18024
+	diversity:	0.00167
+	avg separation:	13.06629
+	accu: 		91.79179%
+	l1: 		170488.98
+	avg proto dist:	4.73889
+------------------------------------------
+
+epoch: 	176
+	joint
+train
+	time: 	13.27
+	cross ent: 	0.32163
+	cluster: 	0.14041
+	separation:	0.17388
+	diversity:	0.00159
+	avg separation:	13.23206
+	accu: 		92.15883%
+	l1: 		170488.98
+	avg proto dist:	4.76031
+------------------------------------------
+
+epoch: 	177
+	joint
+train
+	time: 	13.32
+	cross ent: 	0.29975
+	cluster: 	0.13388
+	separation:	0.18317
+	diversity:	0.00214
+	avg separation:	13.52487
+	accu: 		93.09309%
+	l1: 		170488.98
+	avg proto dist:	4.78469
+------------------------------------------
+
+epoch: 	178
+	joint
+train
+	time: 	13.23
+	cross ent: 	0.26695
+	cluster: 	0.13008
+	separation:	0.17766
+	diversity:	0.00152
+	avg separation:	13.69185
+	accu: 		93.41008%
+	l1: 		170488.98
+	avg proto dist:	4.80288
+------------------------------------------
+
+epoch: 	179
+	joint
+train
+	time: 	13.38
+	cross ent: 	0.29021
+	cluster: 	0.13746
+	separation:	0.18805
+	diversity:	0.00243
+	avg separation:	13.81808
+	accu: 		93.22656%
+	l1: 		170488.98
+	avg proto dist:	4.82984
+------------------------------------------
+
+epoch: 	180
+	joint
+train
+	time: 	13.48
+	cross ent: 	0.25909
+	cluster: 	0.12926
+	separation:	0.17952
+	diversity:	0.00098
+	avg separation:	13.96073
+	accu: 		93.59359%
+	l1: 		170488.98
+	avg proto dist:	4.84493
+------------------------------------------
+
+epoch: 	181
+	joint
+train
+	time: 	13.25
+	cross ent: 	0.28258
+	cluster: 	0.13120
+	separation:	0.17771
+	diversity:	0.00249
+	avg separation:	14.27627
+	accu: 		92.85953%
+	l1: 		170488.98
+	avg proto dist:	4.86525
+------------------------------------------
+
+epoch: 	182
+	joint
+train
+	time: 	13.50
+	cross ent: 	0.32528
+	cluster: 	0.14083
+	separation:	0.18259
+	diversity:	0.00193
+	avg separation:	14.52000
+	accu: 		92.29229%
+	l1: 		170488.98
+	avg proto dist:	4.89142
+------------------------------------------
+
+epoch: 	183
+	joint
+train
+	time: 	13.25
+	cross ent: 	0.25764
+	cluster: 	0.13133
+	separation:	0.18468
+	diversity:	0.00198
+	avg separation:	14.67709
+	accu: 		93.79379%
+	l1: 		170488.98
+	avg proto dist:	4.90752
+------------------------------------------
+
+epoch: 	184
+	joint
+train
+	time: 	13.59
+	cross ent: 	0.26439
+	cluster: 	0.13092
+	separation:	0.18520
+	diversity:	0.00124
+	avg separation:	14.98022
+	accu: 		93.66033%
+	l1: 		170488.98
+	avg proto dist:	4.92965
+------------------------------------------
+
+epoch: 	185
+	joint
+train
+	time: 	13.60
+	cross ent: 	0.26892
+	cluster: 	0.13107
+	separation:	0.19985
+	diversity:	0.00134
+	avg separation:	15.38682
+	accu: 		93.67701%
+	l1: 		170488.98
+	avg proto dist:	4.96192
+------------------------------------------
+
+epoch: 	186
+	joint
+train
+	time: 	13.37
+	cross ent: 	0.24889
+	cluster: 	0.12691
+	separation:	0.18326
+	diversity:	0.00142
+	avg separation:	15.50331
+	accu: 		94.16083%
+	l1: 		170488.98
+	avg proto dist:	4.97709
+------------------------------------------
+
+epoch: 	187
+	joint
+train
+	time: 	13.17
+	cross ent: 	0.26132
+	cluster: 	0.13085
+	separation:	0.19725
+	diversity:	0.00201
+	avg separation:	15.71189
+	accu: 		93.76043%
+	l1: 		170488.98
+	avg proto dist:	4.99039
+------------------------------------------
+
+epoch: 	188
+	joint
+train
+	time: 	13.37
+	cross ent: 	0.30173
+	cluster: 	0.14042
+	separation:	0.19955
+	diversity:	0.00204
+	avg separation:	16.05648
+	accu: 		93.02636%
+	l1: 		170488.98
+	avg proto dist:	5.03032
+------------------------------------------
+
+epoch: 	189
+	joint
+train
+	time: 	13.04
+	cross ent: 	0.25476
+	cluster: 	0.12767
+	separation:	0.20130
+	diversity:	0.00172
+	avg separation:	16.41895
+	accu: 		93.61028%
+	l1: 		170488.98
+	avg proto dist:	5.05029
+------------------------------------------
+
+epoch: 	190
+	joint
+train
+	time: 	12.89
+	cross ent: 	0.26895
+	cluster: 	0.13315
+	separation:	0.19650
+	diversity:	0.00096
+	avg separation:	16.68445
+	accu: 		93.37671%
+	l1: 		170488.98
+	avg proto dist:	5.07176
+------------------------------------------
+
+epoch: 	191
+	joint
+train
+	time: 	13.48
+	cross ent: 	0.27438
+	cluster: 	0.13575
+	separation:	0.20213
+	diversity:	0.00133
+	avg separation:	16.94442
+	accu: 		93.15983%
+	l1: 		170488.98
+	avg proto dist:	5.10558
+------------------------------------------
+
+epoch: 	192
+	joint
+train
+	time: 	13.37
+	cross ent: 	0.27185
+	cluster: 	0.13423
+	separation:	0.19538
+	diversity:	0.00126
+	avg separation:	17.18237
+	accu: 		93.39339%
+	l1: 		170488.98
+	avg proto dist:	5.12849
+------------------------------------------
+
+epoch: 	193
+	joint
+train
+	time: 	13.28
+	cross ent: 	0.22897
+	cluster: 	0.12856
+	separation:	0.20672
+	diversity:	0.00126
+	avg separation:	17.56849
+	accu: 		94.34434%
+	l1: 		170488.98
+	avg proto dist:	5.14804
+------------------------------------------
+
+epoch: 	194
+	joint
+train
+	time: 	13.21
+	cross ent: 	0.25845
+	cluster: 	0.13399
+	separation:	0.21251
+	diversity:	0.00161
+	avg separation:	17.84908
+	accu: 		93.91058%
+	l1: 		170488.98
+	avg proto dist:	5.17007
+------------------------------------------
+
+epoch: 	195
+	joint
+train
+	time: 	13.45
+	cross ent: 	0.27999
+	cluster: 	0.13554
+	separation:	0.21661
+	diversity:	0.00199
+	avg separation:	18.19810
+	accu: 		93.61028%
+	l1: 		170488.98
+	avg proto dist:	5.19612
+------------------------------------------
+
+epoch: 	196
+	joint
+train
+	time: 	13.37
+	cross ent: 	0.25059
+	cluster: 	0.12735
+	separation:	0.21037
+	diversity:	0.00163
+	avg separation:	18.46996
+	accu: 		93.87721%
+	l1: 		170488.98
+	avg proto dist:	5.23444
+------------------------------------------
+
+epoch: 	197
+	joint
+train
+	time: 	13.15
+	cross ent: 	0.26926
+	cluster: 	0.13434
+	separation:	0.21735
+	diversity:	0.00384
+	avg separation:	19.07084
+	accu: 		93.77711%
+	l1: 		170488.98
+	avg proto dist:	5.26324
+------------------------------------------
+
+epoch: 	198
+	joint
+train
+	time: 	13.34
+	cross ent: 	0.30829
+	cluster: 	0.14302
+	separation:	0.21094
+	diversity:	0.00202
+	avg separation:	19.23151
+	accu: 		92.89289%
+	l1: 		170488.98
+	avg proto dist:	5.30178
+------------------------------------------
+
+epoch: 	199
+	joint
+train
+	time: 	13.38
+	cross ent: 	0.25790
+	cluster: 	0.13671
+	separation:	0.21871
+	diversity:	0.00122
+	avg separation:	20.05027
+	accu: 		94.07741%
+	l1: 		170488.98
+	avg proto dist:	5.32929
+------------------------------------------
+
+epoch: 	200
+	joint
+train
+	time: 	13.23
+	cross ent: 	0.16119
+	cluster: 	0.10744
+	separation:	0.20459
+	diversity:	0.00001
+	avg separation:	20.13933
+	accu: 		96.14615%
+	l1: 		170488.98
+	avg proto dist:	5.32752
+test
+	time: 	9.32
+	cross ent: 	1.40761
+	cluster: 	0.23350
+	separation:	0.18879
+	diversity:	0.00000
+	avg separation:	19.96732
+	accu: 		74.37004%
+	l1: 		170488.98
+	avg proto dist:	5.32752
+	above 70.00%
+	push
+	Executing push ...
+	push time: 	240.2220528125763
+test
+	time: 	9.34
+	cross ent: 	2.01103
+	cluster: 	0.17841
+	separation:	0.07849
+	diversity:	22.44768
+	avg separation:	8.69812
+	accu: 		72.19537%
+	l1: 		170488.98
+	avg proto dist:	4.04952
+	above 70.00%
+	last layer
+iteration: 	0
+train
+	time: 	13.37
+	cross ent: 	0.18672
+	cluster: 	0.05563
+	separation:	0.08577
+	diversity:	22.44768
+	avg separation:	8.81351
+	accu: 		95.89590%
+	l1: 		169187.84
+	avg proto dist:	4.04952
+test
+	time: 	9.42
+	cross ent: 	1.94863
+	cluster: 	0.17586
+	separation:	0.07414
+	diversity:	22.44768
+	avg separation:	8.69506
+	accu: 		72.60960%
+	l1: 		169187.84
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	1
+train
+	time: 	13.07
+	cross ent: 	0.14860
+	cluster: 	0.05350
+	separation:	0.08479
+	diversity:	22.44768
+	avg separation:	8.81900
+	accu: 		96.36303%
+	l1: 		167847.84
+	avg proto dist:	4.04952
+test
+	time: 	9.22
+	cross ent: 	1.94796
+	cluster: 	0.17813
+	separation:	0.07705
+	diversity:	22.44768
+	avg separation:	8.72359
+	accu: 		72.78219%
+	l1: 		167847.84
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	2
+train
+	time: 	12.97
+	cross ent: 	0.15694
+	cluster: 	0.05391
+	separation:	0.08404
+	diversity:	22.44768
+	avg separation:	8.81533
+	accu: 		96.01268%
+	l1: 		166483.88
+	avg proto dist:	4.04952
+test
+	time: 	9.22
+	cross ent: 	1.95190
+	cluster: 	0.17986
+	separation:	0.07376
+	diversity:	22.44768
+	avg separation:	8.71134
+	accu: 		72.71315%
+	l1: 		166483.88
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	3
+train
+	time: 	13.05
+	cross ent: 	0.14565
+	cluster: 	0.05489
+	separation:	0.08442
+	diversity:	22.44768
+	avg separation:	8.82368
+	accu: 		96.41308%
+	l1: 		165090.16
+	avg proto dist:	4.04952
+test
+	time: 	9.14
+	cross ent: 	1.96199
+	cluster: 	0.17879
+	separation:	0.07473
+	diversity:	22.44768
+	avg separation:	8.72404
+	accu: 		72.45426%
+	l1: 		165090.16
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	4
+train
+	time: 	13.24
+	cross ent: 	0.13648
+	cluster: 	0.05354
+	separation:	0.08387
+	diversity:	22.44768
+	avg separation:	8.81730
+	accu: 		96.93026%
+	l1: 		163661.34
+	avg proto dist:	4.04952
+test
+	time: 	9.36
+	cross ent: 	1.96509
+	cluster: 	0.17874
+	separation:	0.07569
+	diversity:	22.44768
+	avg separation:	8.75321
+	accu: 		72.60960%
+	l1: 		163661.34
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	5
+train
+	time: 	13.25
+	cross ent: 	0.14724
+	cluster: 	0.05598
+	separation:	0.08443
+	diversity:	22.44768
+	avg separation:	8.81616
+	accu: 		96.62996%
+	l1: 		162194.77
+	avg proto dist:	4.04952
+test
+	time: 	9.29
+	cross ent: 	1.96944
+	cluster: 	0.17707
+	separation:	0.07556
+	diversity:	22.44768
+	avg separation:	8.69583
+	accu: 		72.67863%
+	l1: 		162194.77
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	6
+train
+	time: 	12.99
+	cross ent: 	0.15818
+	cluster: 	0.05443
+	separation:	0.08520
+	diversity:	22.44768
+	avg separation:	8.80616
+	accu: 		96.51318%
+	l1: 		160690.33
+	avg proto dist:	4.04952
+test
+	time: 	9.42
+	cross ent: 	1.97927
+	cluster: 	0.17920
+	separation:	0.07708
+	diversity:	22.44768
+	avg separation:	8.71153
+	accu: 		72.76493%
+	l1: 		160690.33
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	7
+train
+	time: 	13.36
+	cross ent: 	0.17249
+	cluster: 	0.05629
+	separation:	0.08408
+	diversity:	22.44768
+	avg separation:	8.79880
+	accu: 		96.51318%
+	l1: 		159167.16
+	avg proto dist:	4.04952
+test
+	time: 	9.12
+	cross ent: 	2.02124
+	cluster: 	0.17779
+	separation:	0.07707
+	diversity:	22.44768
+	avg separation:	8.73163
+	accu: 		72.88574%
+	l1: 		159167.16
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	8
+train
+	time: 	13.14
+	cross ent: 	0.14990
+	cluster: 	0.05511
+	separation:	0.08301
+	diversity:	22.44768
+	avg separation:	8.81964
+	accu: 		96.83016%
+	l1: 		157623.11
+	avg proto dist:	4.04952
+test
+	time: 	9.42
+	cross ent: 	1.99244
+	cluster: 	0.17651
+	separation:	0.07710
+	diversity:	22.44768
+	avg separation:	8.69530
+	accu: 		72.90300%
+	l1: 		157623.11
+	avg proto dist:	4.04952
+	above 70.00%
+iteration: 	9
+train
+	time: 	13.15
+	cross ent: 	0.15222
+	cluster: 	0.05565
+	separation:	0.08493
+	diversity:	22.44768
+	avg separation:	8.83059
+	accu: 		96.88021%
+	l1: 		156016.45
+	avg proto dist:	4.04952
+test
+	time: 	9.40
+	cross ent: 	2.03916

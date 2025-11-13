@@ -113,7 +113,7 @@ def run_pruning(args: Namespace):
     makedir(model_dir)
     log, logclose = create_logger(log_filename=os.path.join(model_dir, 'prune.log'))
 
-    ppnet = torch.load(args.model)
+    ppnet = torch.load(args.model, weights_only=False)
     ppnet = ppnet.cuda()
     ppnet_multi = torch.nn.DataParallel(ppnet)
     class_specific = True
