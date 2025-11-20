@@ -1,8 +1,3 @@
-# PMI(x,y)=log_2⁡ \frac{p(\{x,y\}| s-\{x,y\})}{P(\{x\}|s-\{x,y\})P(\{y\}|s-\{x,y\})}
-# * Compute the $P(x)$, $P(y)$ and $P(x,y)$ first and print it out.
-# * Compute the PMI for each word.
-# * Visualize the result by coloring. Tips: you might need to normalize the result first. 
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -60,7 +55,7 @@ def compute_probabilities(sentence: str, responses: list[list[str]],
     for key in p_x:
         p_x[key] /= (total_samples * (len(words) - 1))  # x appears in all word pairs
     for key in p_y:
-        p_y[key] /= total_samples
+        p_y[key] /= total_samples # missing logic if a word appears multiple times
     
     return p_xy, p_x, p_y
 
@@ -106,7 +101,7 @@ def calculate_pmi(sentence: str, anchor_word_idx: int, p_xy: dict,
 
 
 def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, float],
-                  save_path: str = None, figsize: tuple = (12, 2)) -> None:
+                  save_path: str | None = None, figsize: tuple = (12, 2)) -> None:
     """
     Visualize PMI scores as a colored text display.
     
@@ -140,7 +135,7 @@ def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, flo
     ax.axis('off')
     
     # Color map: lighter for low PMI, darker for high PMI
-    cmap = plt.cm.YlOrRd
+    cmap = plt.get_cmap('YlOrRd')
     
     # Display words with background colors
     x_pos = 0.05
@@ -175,7 +170,6 @@ def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, flo
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
         plt.savefig(save_path, dpi=150, bbox_inches='tight')
-        print(f"Visualization saved to {save_path}")
     
     plt.show()
 
@@ -190,9 +184,7 @@ def print_scores(p_xy: dict, p_x: dict, p_y: dict, pmi_scores: dict,
         p_x: Marginal probability for x
         p_y: Marginal probability for y
     """
-    print("COMPUTED PROBABILITIES")
-    print("="*20)
-    
+    print("COMPUTED PROBABILITIES:")    
     print("P(x) - Marginal probability of anchor word:")
     for word, prob in sorted(p_x.items(), key=lambda x: x[1], reverse=True):
         print(f"  P({word}) = {prob:.4f}")
@@ -206,6 +198,5 @@ def print_scores(p_xy: dict, p_x: dict, p_y: dict, pmi_scores: dict,
         print(f"  P({x}, {y}) = {prob:.4f}")
     
     print("PMI Scores:")
-    print("="*20)
     for word, score in pmi_scores.items():
         print(f"  PMI({sentence.split()[anchor_word_idx].lower()}, {word}) = {score:.4f}")
