@@ -101,7 +101,7 @@ def calculate_pmi(sentence: str, anchor_word_idx: int, p_xy: dict,
 
 
 def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, float],
-                  save_path: str | None = None, figsize: tuple = (12, 2)) -> None:
+                  save_path: str | None = None) -> None:
     """
     Visualize PMI scores as a colored text display.
     
@@ -110,7 +110,6 @@ def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, flo
         anchor_word_idx: Index of the anchor word
         pmi_scores: Dictionary mapping words to PMI scores
         save_path: Optional path to save the figure
-        figsize: Figure size (width, height)
     """
     words = sentence.lower().split()
     
@@ -131,7 +130,7 @@ def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, flo
         normalized_scores = [0.5] * len(pmi_values)
     
     # Create figure
-    _, ax = plt.subplots(figsize=figsize)
+    _, ax = plt.subplots(figsize=(1.2*len(words), 1.0))
     ax.axis('off')
     
     # Color map: lighter for low PMI, darker for high PMI
@@ -139,8 +138,8 @@ def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, flo
     
     # Display words with background colors
     x_pos = 0.05
-    y_pos = 0.5
-    spacing = 0.8 / len(words)  # Distribute words across figure width
+    y_pos = 0.6
+    spacing = 0.99 / len(words)  # Distribute words across figure width
     
     for i, (word, score, norm_score) in enumerate(zip(words, pmi_values, normalized_scores)):
         # Use bounding box with color
@@ -158,18 +157,17 @@ def visualize_pmi(sentence: str, anchor_word_idx: int, pmi_scores: dict[str, flo
                 bbox=bbox_props)
         
         # Add PMI score below word
-        ax.text(x_pos, y_pos - 0.3, f'PMI: {score:.2f}', fontsize=9, 
+        ax.text(x_pos - 0.02, y_pos - 0.45, f'PMI: {score:.2f}', fontsize=9, 
                ha='left', va='center', style='italic', color='gray')
-        
+
         x_pos += spacing
     
-    plt.title(f'PMI Visualization (Anchor word: "{words[anchor_word_idx]}")', 
-             fontsize=16, pad=20)
+    # plt.title(f'PMI Visualization (Anchor word: "{words[anchor_word_idx]}")', fontsize=16, y=0.95)
     plt.tight_layout()
     
     if save_path:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
-        plt.savefig(save_path, dpi=150, bbox_inches='tight')
+        plt.savefig(save_path, bbox_inches='tight')
     
     plt.show()
 
