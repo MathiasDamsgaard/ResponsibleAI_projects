@@ -2,17 +2,70 @@ import string
 
 
 def is_response_valid(original_words, replaced_words):
-    # Extract non-[MASK] words from the original sentence
-    non_mask_words = [word for word in original_words if "[mask]" not in word]
+    # Enforce strict ordering and single-token replacement for each [mask].
+    # original_words and replaced_words are lists of tokens (lowercase, punctuation removed).
+    mask_count = original_words.count("[mask]")
+    
+    # Build list of (word, original_position) for non-mask words
+    non_mask_items = [(w, i) for i, w in enumerate(original_words) if w != "[mask]"]
 
-    # Check if both original_words and replaced_words contain words
-    if not non_mask_words or not replaced_words:
+    # If there are no non-mask words, replaced_words must contain exactly one token per mask
+    if not non_mask_items:
+        return len(replaced_words) == mask_count
+
+    if not replaced_words:
         return False
 
-    # Check if each non-[MASK] word is present in the replaced sentence
-    for word in non_mask_words:
-        if word not in replaced_words:
+    # Find positions of non-mask words in replaced_words in order
+    replaced_positions = []
+    start_idx = 0
+    for word, _ in non_mask_items:
+        try:
+            pos = replaced_words.index(word, start_idx)
+        except ValueError:
             return False
+        replaced_positions.append(pos)
+        start_idx = pos + 1
+
+    # Now verify the number of tokens between matched non-mask words equals the number of masks
+    # in the corresponding segment of the original sentence. Each mask must correspond to exactly
+    # one token in the generated sentence.
+    # Build list of counts of masks in each segment of the original sentence.
+    seg_mask_counts = []
+    
+    # masks before first non-mask
+    first_orig_idx = non_mask_items[0][1]
+    seg_mask_counts.append(original_words[:first_orig_idx].count("[mask]"))
+
+    # masks between consecutive non-mask words
+    for i in range(len(non_mask_items) - 1):
+        left_orig_idx = non_mask_items[i][1]
+        right_orig_idx = non_mask_items[i + 1][1]
+        # count masks strictly between left and right
+        seg_mask_counts.append(original_words[left_orig_idx + 1:right_orig_idx].count("[mask]"))
+
+    # masks after last non-mask
+    last_orig_idx = non_mask_items[-1][1]
+    seg_mask_counts.append(original_words[last_orig_idx + 1:].count("[mask]"))
+
+    # Now get actual token counts in replaced_words segments
+    actual_counts = []
+    # before first non-mask
+    actual_counts.append(replaced_positions[0])
+    # between matched non-masks
+    for i in range(len(replaced_positions) - 1):
+        actual_counts.append(replaced_positions[i + 1] - replaced_positions[i] - 1)
+    # after last non-mask
+    actual_counts.append(len(replaced_words) - replaced_positions[-1] - 1)
+
+    # Compare expected and actual counts; each mask must map to exactly one token
+    if len(seg_mask_counts) != len(actual_counts):
+        return False
+
+    for expected_masks, actual_tokens in zip(seg_mask_counts, actual_counts):
+        if expected_masks != actual_tokens:
+            return False
+
     return True
 
 
@@ -56,11 +109,18 @@ def get_replacements(original_sentence, replaced_sentence):
             stop_word = get_stop_word(original_words[check_idx:])
             if stop_word:
                 # search replaced_words until stop_word is found
+                # guard against running out of words in replaced_words
                 while replaced_word != stop_word:
                     replacements[replacement_idx].append(replaced_word)
+                    if not replaced_words:
+                        # stop_word not found in the remainder of replaced_words;
+                        # break to avoid IndexError and continue processing
+                        break
                     replaced_word = replaced_words.pop(0)
 
-                replaced_words.insert(0, replaced_word)
+                # only push the stop_word back if we actually found it
+                if replaced_word == stop_word:
+                    replaced_words.insert(0, replaced_word)
                 replacement_idx += 1
             else:
                 if len(original_words[check_idx:]) > 1:
@@ -72,6 +132,12 @@ def get_replacements(original_sentence, replaced_sentence):
                     replacement_idx += 1
 
     # join words into sentences
+    # Each replacement must be a single token; if multi-token replacement detected, treat as invalid
+    for rep in replacements:
+        if len(rep) > 1:
+            print(f" Response contains multi-word replacement for a mask: {replacements}")
+            return [""] * mask_count
+
     replacements = [" ".join(replacement) for replacement in replacements]
     return replacements
 
