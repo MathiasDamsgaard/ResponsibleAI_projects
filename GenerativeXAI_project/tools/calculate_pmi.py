@@ -51,9 +51,6 @@ def visualize_new(words: list[str], anchor_word_idx: int, pmi_scores: list[float
     
     for i, word in enumerate(words):
 
-        ax.text(x_pos, y_pos, word, fontsize=14, ha='left', va='center',
-                bbox=bbox_props)
-
         if i == anchor_word_idx:
             bbox_props = dict(boxstyle='round,pad=0.5', facecolor='lightblue', 
                             edgecolor='blue', linewidth=2)
@@ -64,6 +61,9 @@ def visualize_new(words: list[str], anchor_word_idx: int, pmi_scores: list[float
             # Add PMI score below word
             ax.text(x_pos - 0.02, y_pos - 0.45, f'PMI: {pmi_scores.pop(0):.2f}', fontsize=9, 
                ha='left', va='center', style='italic', color='gray')
+            
+        ax.text(x_pos, y_pos, word, fontsize=14, ha='left', va='center',
+                bbox=bbox_props)
         x_pos += spacing
     
     # plt.title(f'PMI Visualization (Anchor word: "{words[anchor_word_idx]}")', fontsize=16, y=0.95)
